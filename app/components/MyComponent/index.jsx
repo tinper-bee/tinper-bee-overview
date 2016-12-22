@@ -27,14 +27,13 @@ import { Row,
         FormGroup,
         Switch,
         Select,
-        Option,
         Cascader,
         Upload
          } from 'tinper-bee';
 
 import './index.css';
-
-
+const Option = Select.Option;
+const OptGroup = Select.OptGroup;
 
 const notification = Notification.newInstance({position: 'bottomRight'});
 
