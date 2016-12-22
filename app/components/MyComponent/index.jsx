@@ -28,64 +28,102 @@ import { Row,
         Switch,
         Select,
         Cascader,
-        Upload
+
          } from 'tinper-bee';
 
 import './index.css';
+import Upload from 'bee-upload';
 const Option = Select.Option;
 const OptGroup = Select.OptGroup;
-
+console.log(Upload);
 const notification = Notification.newInstance({position: 'bottomRight'});
+const props = {
+  name: 'file',
+  action: '/upload.do',
+  headers: {
+    authorization: 'authorization-text',
+  },
+  onChange(info) {
+    if (info.file.status !== 'uploading') {
+      console.log(info.file, info.fileList);
+    }
+    if (info.file.status === 'done') {
+      console.log(`${info.file.name} file uploaded successfully`);
+    } else if (info.file.status === 'error') {
+      console.log(`${info.file.name} file upload failed.`);
+    }
+  },
+};
 
+const demo3props = {
+  action: '/upload.do',
+  onChange(info) {
+    if (info.file.status !== 'uploading') {
+      console.log(info.file);
+      console.log(info.fileList);
+    }
+  },
+  defaultFileList: [{
+    uid: -1,
+    name: 'xxx.png',
+    status: 'done',
+    url: 'http://www.baidu.com/xxx.png',
+  }, {
+    uid: -2,
+    name: 'yyy.png',
+    status: 'done',
+    url: 'http://www.baidu.com/yyy.png',
+  }],
+};
 const options = [
- 	{
- 	  value: '浙江',
- 	  children: [
- 		  {
- 		    value: '杭州',
- 		    children: [
- 			    {
- 			      value: '西湖',
- 			      children: [
- 				    {
- 				      value: '白娘子'
- 				    },
- 				    {
- 				      value: '许仙'
- 				    }]
- 			    }]
- 		  }
- 	  ]
- 	},
- 	{
- 	  value: '江苏',
- 	  children: [
- 		  {
- 		    value: '南京',
- 		    children: [
- 			    {
- 			      value: '中华门'
- 			    }]
- 		  }
- 	  ]
- 	},
- 	{
- 	  value: '山东'
- 	}
+    {
+      value: '浙江',
+      children: [
+          {
+            value: '杭州',
+            children: [
+                {
+                  value: '西湖',
+                  children: [
+                    {
+                      value: '白娘子'
+                    },
+                    {
+                      value: '许仙'
+                    }]
+                }]
+          }
+      ]
+    },
+    {
+      value: '江苏',
+      children: [
+          {
+            value: '南京',
+            children: [
+                {
+                  value: '中华门'
+                }]
+          }
+      ]
+    },
+    {
+      value: '山东'
+    }
  ];
 
 class MyComponent extends Component {
     constructor(props) {
-		super(props);
-		this.state = {
-			activePage:1
-		}
-	}
-	handleSelect(eventKey) {
-	    this.setState({
-	      activePage: eventKey
-	    });
-	}
+        super(props);
+        this.state = {
+            activePage:1
+        }
+    }
+    handleSelect(eventKey) {
+        this.setState({
+          activePage: eventKey
+        });
+    }
 
     simpleFnsuccess() {
       notification.notice({
@@ -159,8 +197,8 @@ simpleFnwarning() {
         <Col md={12}>
                 <Badge colors="primary">13</Badge>
                 <Badge colors="primary">
-				            <i className="uf uf-bellmusicaltool"></i>
-			    </Badge>
+                            <i className="uf uf-bellmusicaltool"></i>
+                </Badge>
         </Col>
         <Col md={12}>
             <Loadingstate>confirm</Loadingstate>
@@ -170,10 +208,10 @@ simpleFnwarning() {
             <ProgressBar now = {30} />
             <ProgressBar active now = {40}/>
             <ProgressBar size="sm">
-				<ProgressBar colors="danger" now = {10} />
-				<ProgressBar colors="success" now = {20} />
-				<ProgressBar colors="warning" now = {30} />
-			</ProgressBar>
+                <ProgressBar colors="danger" now = {10} />
+                <ProgressBar colors="success" now = {20} />
+                <ProgressBar colors="warning" now = {30} />
+            </ProgressBar>
         </Col>
         <Col md={12}>
             <ButtonGroup vertical>
@@ -213,15 +251,15 @@ simpleFnwarning() {
                 activePage={this.state.activePage}
                 onSelect={this.handleSelect.bind(this)} />
             <Pagination
-	        	first
-	        	last
-	        	prev
-	        	next
-	        	boundaryLinks
-		        items={20}
-		        maxButtons={5}
-		        activePage={this.state.activePage}
-		        onSelect={this.handleSelect.bind(this)} />
+                first
+                last
+                prev
+                next
+                boundaryLinks
+                items={20}
+                maxButtons={5}
+                activePage={this.state.activePage}
+                onSelect={this.handleSelect.bind(this)} />
         </Col>
         <Col md={12}>
         <Tabs navtype="simple" contenttype="" defaultActiveKey="2">
@@ -303,9 +341,9 @@ simpleFnwarning() {
         </Col>
         <Col md={12} className='demo-tooltip'>
                 <Tooltip id="tooltip1"><strong>Holy guacamole!</strong> Check this info.</Tooltip>
-				<Tooltip id="tooltip2" placement="top"><strong>Holy guacamole!</strong> Check this info.</Tooltip>
-				<Tooltip id="tooltip3" placement="right"><strong>Holy guacamole!</strong> Check this info.</Tooltip>
-				<Tooltip id="tooltip4" placement="bottom"><strong>Holy guacamole!</strong> Check this info.</Tooltip>
+                <Tooltip id="tooltip2" placement="top"><strong>Holy guacamole!</strong> Check this info.</Tooltip>
+                <Tooltip id="tooltip3" placement="right"><strong>Holy guacamole!</strong> Check this info.</Tooltip>
+                <Tooltip id="tooltip4" placement="bottom"><strong>Holy guacamole!</strong> Check this info.</Tooltip>
             </Col>
             <Col md={12}>
             <Col sm={2} xs={4}>
@@ -349,29 +387,29 @@ simpleFnwarning() {
                 </Col>
                 <Col md={12} className='demo-checkbox'>
                     <Checkbox disabled> checkbox</Checkbox>
-    				<Checkbox checked> checkbox</Checkbox>
+                    <Checkbox checked> checkbox</Checkbox>
                  </Col>
                  <Col md={12}>
                     <FormControl placeholder="Enter text"/>
                   </Col>
                   <Col md={12}>
                   <FormGroup>
-                  	        		<InputGroup>
-                  				 		<InputGroup.Addon>.00</InputGroup.Addon>
-                  				        <FormControl type="text" />
-                  				        <InputGroup.Addon>.00</InputGroup.Addon>
-                  				    </InputGroup>
+                                    <InputGroup>
+                                        <InputGroup.Addon>.00</InputGroup.Addon>
+                                        <FormControl type="text" />
+                                        <InputGroup.Addon>.00</InputGroup.Addon>
+                                    </InputGroup>
 
-                  				    <InputGroup>
-                  				 		<InputGroup.Addon>.00</InputGroup.Addon>
-                  				        <FormControl type="text" />
-                  				    </InputGroup>
+                                    <InputGroup>
+                                        <InputGroup.Addon>.00</InputGroup.Addon>
+                                        <FormControl type="text" />
+                                    </InputGroup>
 
-                  				    <InputGroup>
-                  				        <FormControl type="text" />
-                  				        <InputGroup.Addon>.00</InputGroup.Addon>
-                  				    </InputGroup>
-                  	</FormGroup>
+                                    <InputGroup>
+                                        <FormControl type="text" />
+                                        <InputGroup.Addon>.00</InputGroup.Addon>
+                                    </InputGroup>
+                    </FormGroup>
                    </Col>
                    <Col md={12}>
                    <Col sm={2}>
@@ -386,31 +424,40 @@ simpleFnwarning() {
                     </Col>
                     <Col md={12} className="height-150">
                     <Select size="lg" defaultValue="lucy" style={{ width: 200,marginRight: 6 }} onChange={this.handleChange}>
-                    			      <Option value="jack">Jack</Option>
-                    			      <Option value="lucy">Lucy</Option>
-                    			      <Option value="disabled" disabled>Disabled</Option>
-                    			      <Option value="yiminghe">Yiminghe</Option>
-                    			    </Select>
-                    			    <Select defaultValue="lucy" style={{ width: 200,marginRight: 6 }} onChange={this.handleChange}>
-                    			      <Option value="jack">Jack</Option>
-                    			      <Option value="lucy">Lucy</Option>
-                    			      <Option value="disabled" disabled>Disabled</Option>
-                    			      <Option value="yiminghe">Yiminghe</Option>
-                    			    </Select>
-                    			    <Select size="sm" defaultValue="lucy" style={{ width: 200 }} onChange={this.handleChange}>
-                    			      <Option value="jack">Jack</Option>
-                    			      <Option value="lucy">Lucy</Option>
-                    			      <Option value="disabled" disabled>Disabled</Option>
-                    			      <Option value="yiminghe">Yiminghe</Option>
-                    			    </Select>
+                                      <Option value="jack">Jack</Option>
+                                      <Option value="lucy">Lucy</Option>
+                                      <Option value="disabled" disabled>Disabled</Option>
+                                      <Option value="yiminghe">Yiminghe</Option>
+                                    </Select>
+                                    <Select defaultValue="lucy" style={{ width: 200,marginRight: 6 }} onChange={this.handleChange}>
+                                      <Option value="jack">Jack</Option>
+                                      <Option value="lucy">Lucy</Option>
+                                      <Option value="disabled" disabled>Disabled</Option>
+                                      <Option value="yiminghe">Yiminghe</Option>
+                                    </Select>
+                                    <Select size="sm" defaultValue="lucy" style={{ width: 200 }} onChange={this.handleChange}>
+                                      <Option value="jack">Jack</Option>
+                                      <Option value="lucy">Lucy</Option>
+                                      <Option value="disabled" disabled>Disabled</Option>
+                                      <Option value="yiminghe">Yiminghe</Option>
+                                    </Select>
                      </Col>
                      <Col md={12}>
                      <div className="height-150">
-                                          	<Cascader options = {options} />
+                                            <Cascader options = {options} />
                                          </div>
                       </Col>
                       <Col md={12}>
-                            <span>upload</span>
+                            <Upload {...props}>
+                                <Button type="primary" shape="border">
+                                  <Icon type="upload" /> Click to Upload
+                                </Button>
+                            </Upload>
+                            <Upload {...demo3props}>
+                                <Button type="primary" shape="border">
+                                  <Icon type="upload" /> Click to Upload
+                                </Button>
+                            </Upload>
                        </Col>
                        <Col md={12}>
 
