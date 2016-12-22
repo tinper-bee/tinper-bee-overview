@@ -13,6 +13,9 @@ import { Row,
         Modal,
         Notification,
         Alert,
+        TabPanel,
+        Icon,
+        Tabs,
         Popconfirm,
         Tooltip,
         Loading,
@@ -25,10 +28,12 @@ import { Row,
         Switch,
         Select,
         Option,
-        Cascader
+        Cascader,
+        Upload
          } from 'tinper-bee';
 
 import './index.css';
+
 
 
 const notification = Notification.newInstance({position: 'bottomRight'});
@@ -185,7 +190,9 @@ simpleFnwarning() {
         </Col>
 
         <Col md={12}>
-            <span>panel</span>
+        <Panel header="Panel header" footer='Panel footer'>
+                  Panel content
+                </Panel>
         </Col>
         <Col md={12}>
         <Breadcrumb>
@@ -218,7 +225,24 @@ simpleFnwarning() {
 		        onSelect={this.handleSelect.bind(this)} />
         </Col>
         <Col md={12}>
-        <span>Tab</span>
+        <Tabs navtype="simple" contenttype="" defaultActiveKey="2">
+               <TabPanel tab="Tab 1" key="1">测试测试 1</TabPanel>
+               <TabPanel tab="Tab 2" key="2">Content of Tab Pane 2</TabPanel>
+               <TabPanel tab="Tab 3" key="3">测试测试 3</TabPanel>
+               <TabPanel tab="Tab 4" key="4">测试测试 4</TabPanel>
+               <TabPanel tab="Tab 5" key="5">测试测试 5</TabPanel>
+               <TabPanel tab="Tab 6" key="6">测试测试 6</TabPanel>
+               <TabPanel tab="Tab 7" key="7">测试测试 7</TabPanel>
+           </Tabs>
+           <Tabs navtype="fill" contenttype="" defaultActiveKey="2">
+               <TabPanel tab="Tab 1" key="1">测试测试 1</TabPanel>
+               <TabPanel tab="Tab 2" key="2">Content of Tab Pane 2</TabPanel>
+               <TabPanel tab="Tab 3" key="3">测试测试 3</TabPanel>
+               <TabPanel tab="Tab 4" key="4">测试测试 4</TabPanel>
+               <TabPanel tab="Tab 5" key="5">测试测试 5</TabPanel>
+               <TabPanel tab="Tab 6" key="6">测试测试 6</TabPanel>
+               <TabPanel tab="Tab 7" key="7">测试测试 7</TabPanel>
+           </Tabs>
         </Col>
         <Col md={12}>
             <Dropdown title="默认下拉" activeKey="B">
@@ -361,7 +385,7 @@ simpleFnwarning() {
                                       <Switch checked={true} size='lg' />
                                   </Col>
                     </Col>
-                    <Col md={12}>
+                    <Col md={12} className="height-150">
                     <Select size="lg" defaultValue="lucy" style={{ width: 200,marginRight: 6 }} onChange={this.handleChange}>
                     			      <Option value="jack">Jack</Option>
                     			      <Option value="lucy">Lucy</Option>
@@ -387,7 +411,7 @@ simpleFnwarning() {
                                          </div>
                       </Col>
                       <Col md={12}>
-                        upload
+                            <span>upload</span>
                        </Col>
                        <Col md={12}>
 
@@ -398,5 +422,7 @@ simpleFnwarning() {
     );
   }
 }
+
+
 
 export default MyComponent;
