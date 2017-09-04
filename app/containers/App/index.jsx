@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Con, Row, Col } from 'tinper-bee';
 
-import { Header, Menus, ButtonDemo } from '../../components';
+import { Header, Menus, ButtonDemo, BadgeDemo, ProgressBarDemo } from '../../components';
 
 
 import './index.css';
@@ -21,6 +21,8 @@ class App extends Component {
             </Col>
             <Col sm={9}>
                 <ButtonDemo />
+                <BadgeDemo />
+                <ProgressBarDemo />
             </Col>
         </Row>
     </div>
