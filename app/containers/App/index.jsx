@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Con, Row, Col } from 'tinper-bee';
 
-import { Header, Menus, MyComponent } from '../../components';
+import { Header, Menus, ButtonDemo } from '../../components';
 
 
 import './index.css';
@@ -20,7 +20,7 @@ class App extends Component {
                 <Menus />
             </Col>
             <Col sm={9}>
-                <MyComponent />
+                <ButtonDemo />
             </Col>
         </Row>
     </div>

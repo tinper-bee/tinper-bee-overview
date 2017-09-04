@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Navbar } from 'tinper-bee';
+import { Menu } from 'tinper-bee';
 import { Link } from 'react-router';
 
 import './index.css';
 
-const Menu = Navbar.Menu;
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 
