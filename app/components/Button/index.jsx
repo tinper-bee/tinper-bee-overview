@@ -14,6 +14,7 @@ export default class ButtonDemo extends Component{
                     <div className="button-demo-row">
                         <Button colors="primary">primary</Button>
                         <Button colors="accent">accent</Button>
+                        <Button bordered>border</Button>
                     </div>
                     <div className="button-demo-row">
                         <Button colors="success">success</Button>
@@ -23,8 +24,8 @@ export default class ButtonDemo extends Component{
                     </div>
                     <div className="button-demo-row">
                         <Button bordered colors="success">success</Button>
-                        <Button bordered colors="warning">info</Button>
-                        <Button bordered colors="info">warning</Button>
+                        <Button bordered colors="info">info</Button>
+                        <Button bordered colors="warning">warning</Button>
                         <Button bordered colors="danger">danger</Button>
                     </div>
                 </Tile>
@@ -50,10 +51,10 @@ export default class ButtonDemo extends Component{
                 <Tile className="button-demo-tile">
                     <div className="button-group-demo-row">
                         <ButtonGroup>
-                            <Button shape='border'><Icon type='uf-navmenu' /></Button>
-                            <Button shape='border'><Icon type='uf-file' /></Button>
-                            <Button shape='border'><Icon type='uf-pencil' /></Button>
-                            <Button shape='border'><Icon type='uf-del' /></Button>
+                            <Button bordered><Icon type='uf-navmenu' /></Button>
+                            <Button bordered><Icon type='uf-file' /></Button>
+                            <Button bordered><Icon type='uf-pencil' /></Button>
+                            <Button bordered><Icon type='uf-del' /></Button>
                         </ButtonGroup>
                     </div>
                     <div className="button-group-demo-row">

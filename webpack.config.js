@@ -27,8 +27,7 @@ module.exports = {
         stats: {colors: true}
     },
     entry: {
-        index: [
-            'webpack/hot/dev-server',
+        app: [
             'webpack-dev-server/client?http://localhost:8080',
             path.resolve(__dirname, 'app/index.js')
         ]
@@ -39,7 +38,7 @@ module.exports = {
         publicPath: '/'
     },
     resolve: {
-        extensions: ['', '.js', '.jsx', '.json'],
+        extensions: ['.js', '.jsx', '.json'],
         // 提高webpack搜索的速度
         alias: {
             components: path.resolve(__dirname, 'src/components'),
@@ -52,41 +51,51 @@ module.exports = {
         'react-dom': 'ReactDOM'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js[x]?$/,
-                loaders: ['babel'],
+                loader: ['babel-loader'],
                 exclude: path.resolve(__dirname, 'node_modules')
             },
             {
-                test: /\.css/,
-                loader: ExtractTextPlugin.extract("style-loader", "css-loader")
-            },
-            {
-                test: /\.less/,
-                loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
+                test: /\.css$/,
+                use: ExtractTextPlugin.extract({
+                    use: ["css-loader","postcss-loader"],
+                    fallback: "style-loader"
+                })
+            },{
+                test: /\.less$/,
+                use: ExtractTextPlugin.extract({
+                    use: ['css-loader', 'postcss-loader', 'less-loader'],
+                    fallback: 'style-loader'
+                })
             },
             {
                 test: /\.(png|jpg)$/,
-                loader: 'url?limit=8192'
+                use: [{
+                    loader: "url-loader",
+                    options: { limit: '8192' }
+                }],
             },
             {
                 test: /\.(woff|woff2|ttf|svg|eot)(\?v=\d+\.\d+\.\d+)?$/,
-                loader: "url?limit=10000"
+                use: [{
+                    loader: "url-loader",
+                    options: { limit: '8192' }
+                }],
             }
         ]
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
-        new webpack.NoErrorsPlugin(),
         definePlugin,
         new HtmlWebpackPlugin({
             title: '整体概览',
             template: './app/index.html',
         }),
         new OpenBrowserPlugin({url: 'http://localhost:8080'}),
-        new ExtractTextPlugin("main.css", {
-            allChunks: true,
+        new ExtractTextPlugin({
+            filename: "[name].[hash].css",
             disable: false
         }),
     ]
