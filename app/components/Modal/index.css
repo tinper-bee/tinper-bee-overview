@@ -1,0 +1,10 @@
+.modal-demo-tile {
+  width: 500px;
+  margin-top: 40px;
+}
+.modal-demo-row {
+  margin-bottom: 20px;
+}
+.modal-demo-row .button {
+  margin-right: 10px;
+}

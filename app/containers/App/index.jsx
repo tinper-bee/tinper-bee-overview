@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Con, Row, Col } from 'tinper-bee';
 
-import { Header, Menus, ButtonDemo, BadgeDemo, ProgressBarDemo } from '../../components';
-
+import { Header, Menus, ButtonDemo, BadgeDemo, ProgressBarDemo, LayoutDemo, LoadingStateDemo, TimelineDemo, CalendarDemo,
+         TableDemo, TreeDemo, BreadCrumbDemo, CheckboxDemo, ModalDemo, NotificationDemo, PaginationDemo } from '../../components';
 
 import './index.css';
 
@@ -23,10 +23,20 @@ class App extends Component {
                 <ButtonDemo />
                 <BadgeDemo />
                 <ProgressBarDemo />
+                <TimelineDemo/>
+                <LayoutDemo/>
+                <CalendarDemo/>
+                <TableDemo/>
+                <TreeDemo/>
+                <BreadCrumbDemo/>
+                <CheckboxDemo/>
+                <LoadingStateDemo />
+                <ModalDemo/>
+                <NotificationDemo/>
+                <PaginationDemo/>
             </Col>
         </Row>
     </div>
-
     );
   }
 }

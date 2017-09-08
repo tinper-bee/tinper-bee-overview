@@ -1,0 +1,32 @@
+
+.layout-demo-tile{
+    width: 500px;
+    margin-top: 40px;
+}
+.layout-demo-row{
+    margin-bottom: 20px;
+}
+.grayDeep{
+    background: rgb(189,189,189);
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.gray{
+    background: rgb(224,224,224);
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.grayLight{
+    background: rgb(238,238,238);
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
