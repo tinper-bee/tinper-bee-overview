@@ -22,14 +22,14 @@ export default class CalendarDemo extends Component {
     render() {
         return (
             <div className="calendar-demo">
-                <Tile className="calendar-demo-tile">
+                <Tile className="calendar-demo-tile demo-tile">
                     <Calendar
                         style={{ margin: 10 }}
                         fullscreen={false}
                         onSelect={onSelect}
                         />
                 </Tile>
-                <Tile className="calendar-demo-tile">
+                <Tile className="calendar-demo-tile demo-tile">
                     <Calendar
                         style={{ margin: 10 }}
                         fullscreen

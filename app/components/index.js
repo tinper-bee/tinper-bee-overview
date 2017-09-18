@@ -17,3 +17,7 @@ export CheckboxDemo from './Checkbox/index.jsx'
 export ModalDemo from './Modal/index.js'
 export NotificationDemo from './Notification/index.js';
 export PaginationDemo from './Pagination/index.js';
+export MessageDemo from './Message/index.js';
+export TooltipDemo from './Tooltip/index.js';
+export PanelDemo from './Panel/index.js';
+export TabDemo from './Tab/index.js';

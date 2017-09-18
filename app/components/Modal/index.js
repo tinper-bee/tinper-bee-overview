@@ -46,7 +46,7 @@ export default class ModalDemo extends Component {
     render () {
         return (
             <div className="modal-demo">
-                <Tile className="modal-demo-tile">
+                <Tile className="modal-demo-tile demo-tile">
 
                     <div className="modal-demo-row">
                         <Button
@@ -67,8 +67,17 @@ export default class ModalDemo extends Component {
                             </Modal.Body>
 
                             <Modal.Footer>
-                                <Button onClick={ this.close1 } shape="border" style={{marginRight: 50}}>关闭</Button>
-                                <Button onClick={ this.close1 } colors="primary">确认</Button>
+                                <Button
+                                    onClick={ this.close1 }
+                                    bordered
+                                    style={{marginRight: 50}}>
+                                    关闭
+                                </Button>
+                                <Button
+                                    onClick={ this.close1 }
+                                    colors="primary">
+                                    确认
+                                </Button>
                             </Modal.Footer>
                         </Modal>
                     </div>

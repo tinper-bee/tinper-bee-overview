@@ -10,7 +10,6 @@
     "clean": "rm -rf build/*",
     "test": "./node_modules/.bin/mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
     "test:watch": "npm run test -- --watch"
-
   },
   "betterScripts": {
     "dev": {
@@ -42,7 +41,9 @@
   },
   "homepage": "https://github.com/uba-templates/bee-boilerplate-light#readme",
   "dependencies": {
+    "bee-overlay": "^0.2.0",
     "bee-table": "^0.2.3",
+    "bee-tabs": "^0.3.2",
     "better-npm-run": "0.0.8",
     "bootstrap": "^3.3.6",
     "express": "^4.14.0",

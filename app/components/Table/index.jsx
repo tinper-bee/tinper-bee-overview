@@ -25,7 +25,7 @@ export default class TableDemo extends Component {
     render () {
         return (
             <div className="table-demo">
-                <Tile className="table-demo-tile">
+                <Tile className="table-demo-tile demo-tile">
                     <Table
                         columns={columns}
                         data={data1}
@@ -34,7 +34,7 @@ export default class TableDemo extends Component {
                         emptyText={emptyFunc}
                         />
                 </Tile>
-                <Tile className="table-demo-tile">
+                <Tile className="table-demo-tile demo-tile">
                     <Table
                         columns={columns}
                         data={data2}

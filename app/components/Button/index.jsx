@@ -10,7 +10,8 @@ export default class ButtonDemo extends Component{
     render() {
         return (
             <div className="button-demo">
-                <Tile className="button-demo-tile">
+                <Tile className="button-demo-tile demo-tile">
+                    <h3>基本按钮</h3>
                     <div className="button-demo-row">
                         <Button colors="primary">primary</Button>
                         <Button colors="accent">accent</Button>
@@ -29,7 +30,8 @@ export default class ButtonDemo extends Component{
                         <Button bordered colors="danger">danger</Button>
                     </div>
                 </Tile>
-                <Tile className="button-demo-tile">
+                <Tile className="button-demo-tile demo-tile">
+                    <h3>不同形状按钮</h3>
                     <div className="button-demo-row">
                         <Button size="sm" colors="primary">小按钮</Button>
                         <Button colors="primary">默认</Button>
@@ -48,7 +50,8 @@ export default class ButtonDemo extends Component{
                         <Button shape="icon"><Icon type="uf-plus" /></Button>
                     </div>
                 </Tile>
-                <Tile className="button-demo-tile">
+                <Tile className="button-demo-tile demo-tile">
+                    <h3>按钮组</h3>
                     <div className="button-group-demo-row">
                         <ButtonGroup>
                             <Button bordered><Icon type='uf-navmenu' /></Button>
