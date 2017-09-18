@@ -8,6 +8,11 @@ export default class BadgeDemo extends Component{
                 <Tile className="badge-demo-tile">
                     <div className="badge-demo-row">
                         <Badge colors="primary" >8</Badge>
+                        <Badge colors="success" >7</Badge>
+                        <Badge colors="info" >6</Badge>
+                        <Badge colors="error" >5</Badge>
+                        <Badge colors="warning" >3</Badge>
+                        <Badge colors="dark" >1</Badge>
                         <Badge dataBadge={4} dataBadgePlacement="bottom">
                             <Icon type="uf-bell" />
                         </Badge>
