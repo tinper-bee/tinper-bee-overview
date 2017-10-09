@@ -1,4 +1,4 @@
-'use strict'
+
 
 export MyComponent from './MyComponent/index.jsx'
 export Header from './Header/index.jsx'
@@ -17,3 +17,6 @@ export CheckboxDemo from './Checkbox/index.jsx'
 export ModalDemo from './Modal/index.js'
 export NotificationDemo from './Notification/index.js';
 export PaginationDemo from './Pagination/index.js';
+export TabDemo from './Tab/index.js';
+export InputDemo from './Input/index.js';
+export SwitchDemo from './Switch/index.js';
