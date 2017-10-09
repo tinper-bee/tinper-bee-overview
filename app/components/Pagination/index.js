@@ -23,7 +23,7 @@ export default class PaginationDemo extends React.Component {
     render() {
         return (
             <div className="pagination-demo">
-                <Tile className="pagination-demo-tile">
+                <Tile className="pagination-demo-tile demo-tile">
                     <div className="pagination-demo-row">
                         <Pagination
                             boundaryLinks

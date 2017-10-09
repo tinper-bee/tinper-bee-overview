@@ -6,7 +6,8 @@ export default class LayoutDemo extends Component {
     render () {
         return (
             <div className="layout-demo">
-                <Tile className="layout-demo-tile">
+                <Tile className="layout-demo-tile demo-tile">
+                    <h3>基本栅格布局</h3>
                     <div className="layout-demo-row">
                         <Row>
                             <Col md={12} xs={12} sm={12} ><div className='grayDeep'>12</div></Col>
@@ -28,7 +29,8 @@ export default class LayoutDemo extends Component {
                         </Row>
                     </div>
                 </Tile>
-                <Tile className="layout-demo-tile">
+                <Tile className="layout-demo-tile demo-tile">
+                    <h3>偏移布局</h3>
                     <div className="layout-demo-row">
                         <Row>
                             <Col md={3} mdOffset={3} xs={3} xsOffset={3} sm={3} smOffset={3}><div className='grayDeep'>3 offset-3</div></Col>
@@ -40,7 +42,8 @@ export default class LayoutDemo extends Component {
                         </Row>
                     </div>
                 </Tile>
-                <Tile className="layout-demo-tile">
+                <Tile className="layout-demo-tile demo-tile">
+                    <h3>自定义排列布局</h3>
                     <div className="layout-demo-row">
                         <Row>
                             <Col md={8} mdPush={4} xs={8} xsPush={4} sm={8} smPush={4} >

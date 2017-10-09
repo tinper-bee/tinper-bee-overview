@@ -1,49 +1,29 @@
 import React, { Component } from 'react';
-import {Tabs,TabPane, Tile} from 'tinper-bee';
+import {Tabs, Button, Tile} from 'tinper-bee';
 import './index.less';
 
+console.log(Tabs);
+const TabPane = Tabs.TabPane;
+const ScrollableInkTabBar = Tabs.ScrollableInkTabBar;
+
 export default class TabDemo extends Component {
-    constructor(props) {
-        super(props)
+    constructor(props){
+        super(props);
+
     }
 
-    render() {
+    render () {
         return (
             <div className="tab-demo">
-                <Tile className="tab-demo-tile">
+                <Tile className="tab-demo-tile demo-tile">
+                    <h3>选项卡</h3>
                     <div className="tab-demo-row">
                         <Tabs
-                            defaultActiveKey="1"
-                            tabBarStyle="primary"
-                            //renderTabBar={()=><ScrollableInkTabBar />}
-                            //renderTabContent={()=><TabContent />}
-                            >
-                            <TabPane tab='tab 1' key="1">1</TabPane>
-                            <TabPane tab='tab 2' key="2">2</TabPane>
-                            <TabPane tab='tab 3' key="3">3</TabPane>
-                            <TabPane tab='tab 4' key="4">4</TabPane>
-                        </Tabs>
-                    </div>
-                    <div className="tab-demo-row">
-                        <Tabs
-                            defaultActiveKey="1"
-                            tabBarStyle="upborder"
-                            //renderTabBar={()=><ScrollableInkTabBar />}
-                            //renderTabContent={()=><TabContent />}
-                            >
-                            <TabPane tab='tab 1' key="1">1</TabPane>
-                            <TabPane tab='tab 2' key="2">2</TabPane>
-                            <TabPane tab='tab 3' key="3">3</TabPane>
-                            <TabPane tab='tab 4' key="4">4</TabPane>
-                        </Tabs>
-                    </div>
-                    <div className="tab-demo-row">
-                        <Tabs
-                            defaultActiveKey="1"
+                            defaultActiveKey="2"
+                            onChange={() => {}}
                             tabBarStyle="downborder"
-                            //renderTabBar={()=><ScrollableInkTabBar />}
-                            //renderTabContent={()=><TabContent />}
-                            >
+                            renderTabBar={()=><ScrollableInkTabBar />}
+                        >
                             <TabPane tab='tab 1' key="1">1</TabPane>
                             <TabPane tab='tab 2' key="2">2</TabPane>
                             <TabPane tab='tab 3' key="3">3</TabPane>
@@ -51,19 +31,8 @@ export default class TabDemo extends Component {
                         </Tabs>
                     </div>
                     <div className="tab-demo-row">
-                        <Tabs
-                            defaultActiveKey="1"
-                            tabBarStyle="trapezoid"
-                            //renderTabBar={()=><ScrollableInkTabBar />}
-                            //renderTabContent={()=><TabContent />}
-                            >
-                            <TabPane tab='tab 1' key="1">1</TabPane>
-                            <TabPane tab='tab 2' key="2">2</TabPane>
-                            <TabPane tab='tab 3' key="3">3</TabPane>
-                            <TabPane tab='tab 4' key="4">4</TabPane>
-                        </Tabs>
-                    </div>
 
+                    </div>
                 </Tile>
             </div>
         )

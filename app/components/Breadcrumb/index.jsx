@@ -5,7 +5,7 @@ export default class BreadCrumbDemo extends Component {
     render () {
         return (
             <div className="braed-crumb-demo">
-                <Tile className="bread-crumb-demo-tile">
+                <Tile className="bread-crumb-demo-tile demo-tile">
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">
                             Home
@@ -25,7 +25,7 @@ export default class BreadCrumbDemo extends Component {
                         <Breadcrumb.Item>
                             Library
                         </Breadcrumb.Item>
-                        <Breadcrumb.Item active="false" href="#" title="this is a link">
+                        <Breadcrumb.Item active={false} href="#" title="this is a link">
                             Data
                         </Breadcrumb.Item>
                     </Breadcrumb>

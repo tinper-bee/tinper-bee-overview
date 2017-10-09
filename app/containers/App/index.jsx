@@ -1,11 +1,30 @@
 import React, { Component } from 'react';
 import { Con, Row, Col } from 'tinper-bee';
 
-import { Header, Menus, ButtonDemo, BadgeDemo, ProgressBarDemo, LayoutDemo, LoadingStateDemo, TimelineDemo, CalendarDemo,
-         TableDemo, TreeDemo, BreadCrumbDemo, CheckboxDemo, ModalDemo, NotificationDemo, PaginationDemo
-        ,TabDemo, InputDemo,SwitchDemo} from '../../components';
+import {
+    Header,
+    Menus,
+    ButtonDemo,
+    BadgeDemo,
+    ProgressBarDemo,
+    LayoutDemo,
+    LoadingStateDemo,
+    TimelineDemo,
+    CalendarDemo,
+    TableDemo,
+    TreeDemo,
+    BreadCrumbDemo,
+    CheckboxDemo,
+    ModalDemo,
+    NotificationDemo,
+    PaginationDemo,
+    MessageDemo,
+    TooltipDemo,
+    PanelDemo,
+    TabDemo
+} from '../../components';
 
-import './index.css';
+import './index.less';
 
 class App extends Component {
   constructor(props) {
@@ -17,26 +36,25 @@ class App extends Component {
     <div>
         <Header />
         <Row>
-            <Col sm={3}>
-                <Menus />
-            </Col>
-            <Col sm={9}>
+            <Col sm={12}>
                 <ButtonDemo />
                 <BadgeDemo />
                 <ProgressBarDemo />
-                <TimelineDemo/>
-                <LayoutDemo/>
-                <CalendarDemo/>
-                <TableDemo/>
-                <TreeDemo/>
-                <BreadCrumbDemo/>
-                <CheckboxDemo/>
+                <TimelineDemo />
+                <LayoutDemo />
+                <CalendarDemo />
+                <TableDemo />
+                <TreeDemo />
+                <BreadCrumbDemo />
+                <CheckboxDemo />
                 <LoadingStateDemo />
-                <ModalDemo/>
-                <NotificationDemo/>
-                <PaginationDemo/>
-                <InputDemo/>
-                <SwitchDemo/>
+                <ModalDemo />
+                <NotificationDemo />
+                <PaginationDemo />
+                <MessageDemo />
+                <TooltipDemo />
+                <PanelDemo />
+                <TabDemo />
             </Col>
         </Row>
     </div>

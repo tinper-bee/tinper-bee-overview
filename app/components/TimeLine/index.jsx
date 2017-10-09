@@ -6,7 +6,7 @@ export default class TimelineDemo extends Component {
     render () {
         return (
             <div className="timeline-demo">
-                <Tile className="timeline-demo-tile">
+                <Tile className="timeline-demo-tile demo-tile">
                     <div className="timeline-demo-row">
                         <Timeline>
                             <Timeline.Item>Create a services site 2015-09-01</Timeline.Item>
@@ -22,7 +22,7 @@ export default class TimelineDemo extends Component {
 
                     </div>
                 </Tile>
-                <Tile className="timeline-demo-tile">
+                <Tile className="timeline-demo-tile demo-tile">
                     <div className="timeline-demo-row">
                         <Timeline pending={<a href="#">See more</a>}>
                             <Timeline.Item>Create a services site 2015-09-01</Timeline.Item>

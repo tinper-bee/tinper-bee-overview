@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Checkbox, Tile} from 'tinper-bee';
 
+import './index.less';
+
 export default class CheckboxDemo extends Component{
     constructor(props) {
         super(props);
@@ -9,18 +11,25 @@ export default class CheckboxDemo extends Component{
         };
     }
 
-    onChange() {
+    onChange = () => {
         this.setState({
             checked:!this.state.checked
         })
     }
     render () {
         return (
-            <div className="demo-checkbox">
-                <Tile className="checkbox-demo-tile">
-                    <Checkbox  className="test" onChange={this.onChange}> checkbox</Checkbox>
-                    <Checkbox ref="test" checked={this.state.checked} onHandleChange={this.onChange}> 全选成都市</Checkbox>
-
+            <div className="checkbox-demo">
+                <Tile className="checkbox-demo-tile demo-tile">
+                    <Checkbox
+                        className="test"
+                        onChange={this.onChange}>
+                        checkbox
+                    </Checkbox>
+                    <Checkbox
+                         checked={this.state.checked}
+                         onChange={this.onChange}>
+                        全选成都市
+                    </Checkbox>
                 </Tile>
             </div>
         )

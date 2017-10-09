@@ -54,7 +54,7 @@ export default class NotificationDemo extends Component {
     render () {
         return (
             <div className="notification-demo">
-                <Tile className="notification-demo-tile">
+                <Tile className="notification-demo-tile demo-tile">
                     <div className="notification-demo-row">
                         <Button onClick={this.simpleLight}>light notification</Button>
                         <Button onClick={this.simpleDark} style={{ background: '#404040', color: '#fff' }}>dark notification</Button>
