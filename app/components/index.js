@@ -21,3 +21,4 @@ export MessageDemo from './Message/index.js';
 export TooltipDemo from './Tooltip/index.js';
 export PanelDemo from './Panel/index.js';
 export TabDemo from './Tab/index.js';
+export StepDemo from './Step/index.js';

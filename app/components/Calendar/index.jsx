@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
-import {Calendar, Tile} from 'tinper-bee';
+import { Tile} from 'tinper-bee';
+import Calendar from 'tinper-bee/lib/Calender';
 import './index.less';
 
 function onSelect(value) {

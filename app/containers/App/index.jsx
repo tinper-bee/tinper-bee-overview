@@ -21,7 +21,8 @@ import {
     MessageDemo,
     TooltipDemo,
     PanelDemo,
-    TabDemo
+    TabDemo,
+    StepDemo,
 } from '../../components';
 
 import './index.less';
@@ -55,6 +56,7 @@ class App extends Component {
                 <TooltipDemo />
                 <PanelDemo />
                 <TabDemo />
+                <StepDemo />
             </Col>
         </Row>
     </div>

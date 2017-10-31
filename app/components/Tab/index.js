@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import {Tabs, Button, Tile} from 'tinper-bee';
 import './index.less';
 
-console.log(Tabs);
 const TabPane = Tabs.TabPane;
-const ScrollableInkTabBar = Tabs.ScrollableInkTabBar;
 
 export default class TabDemo extends Component {
     constructor(props){
@@ -22,7 +20,6 @@ export default class TabDemo extends Component {
                             defaultActiveKey="2"
                             onChange={() => {}}
                             tabBarStyle="downborder"
-                            renderTabBar={()=><ScrollableInkTabBar />}
                         >
                             <TabPane tab='tab 1' key="1">1</TabPane>
                             <TabPane tab='tab 2' key="2">2</TabPane>
