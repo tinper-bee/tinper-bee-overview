@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Con, Row, Col } from 'tinper-bee';
+import { Con, Row, Col, BackTop } from 'tinper-bee';
+import 'tinper-bee/assets/tinper-bee.css';
 
 import {
     Header,
@@ -8,7 +9,7 @@ import {
     BadgeDemo,
     ProgressBarDemo,
     LayoutDemo,
-    LoadingStateDemo,
+    LoadingDemo,
     TimelineDemo,
     CalendarDemo,
     TableDemo,
@@ -23,6 +24,23 @@ import {
     PanelDemo,
     TabDemo,
     StepDemo,
+    FormDemo,
+    RateDemo,
+    IconDemo,
+    InputNumberDemo,
+    PopconfirmDemo,
+    AlertDemo,
+    BackTopDemo,
+    CascaderDemo,
+    DropdownDemo,
+    ClipboardDemo,
+    TransferDemo,
+    UploadDemo,
+    AutocompleteDemo,
+    SliderDemo,
+    DateDemo,
+    DndDemo,
+    TimeDemo,
 } from '../../components';
 
 import './index.less';
@@ -48,7 +66,7 @@ class App extends Component {
                 <TreeDemo />
                 <BreadCrumbDemo />
                 <CheckboxDemo />
-                <LoadingStateDemo />
+                <LoadingDemo />
                 <ModalDemo />
                 <NotificationDemo />
                 <PaginationDemo />
@@ -57,8 +75,26 @@ class App extends Component {
                 <PanelDemo />
                 <TabDemo />
                 <StepDemo />
+                <FormDemo />
+                <RateDemo />
+                <IconDemo />
+                <InputNumberDemo />
+                <PopconfirmDemo />
+                <AlertDemo />
+                <BackTopDemo />
+                <CascaderDemo />
+                <DropdownDemo />
+                <ClipboardDemo />
+                <TransferDemo />
+                <UploadDemo />
+                <AutocompleteDemo />
+                <SliderDemo />
+                <DateDemo />
+                <DndDemo />
+                <TimeDemo />
             </Col>
         </Row>
+        <BackTop/>
     </div>
     );
   }

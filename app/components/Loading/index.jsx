@@ -1,16 +1,18 @@
-import { Component } from 'react';
-import {Tile, LoadingState} from 'tinper-bee';
-import './index.css';
+import React, {Component} from 'react';
+import {Loading, Tile} from 'tinper-bee';
+import './index.less';
 
-export default class LoadingStateDemo extends Component {
-    render () {
+export default class LoadingDemo extends Component {
+    render() {
         return (
+        <div className="loading-demo">
             <Tile className="loading-demo-tile demo-tile">
                 <div className="loading-demo-row">
-                    {/*<LoadingState className="loading-state" colors="info" loadingTime={4000}>confirm</LoadingState>*/}
-                    {/*<LoadingState className="loading-state" colors="info" loadingText="waiting..." loadingTime={3000}>confirm</LoadingState>*/}
+                    <Loading show={true} container={this} />
                 </div>
             </Tile>
+        </div>
+
         )
     }
 }

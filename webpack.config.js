@@ -46,10 +46,6 @@ module.exports = {
         }
     },
     devtool: 'cheap-source-map',
-    externals: {
-        'react': 'React',
-        'react-dom': 'ReactDOM'
-    },
     module: {
         rules: [
             {

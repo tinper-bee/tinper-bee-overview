@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, {Component} from 'react';
 import { Tile, ProgressBar } from 'tinper-bee';
 
 import './index.less';
