@@ -38,7 +38,7 @@ import {
     UploadDemo,
     AutocompleteDemo,
     SliderDemo,
-    DateDemo,
+    // DateDemo,
     DndDemo,
     TimeDemo,
 } from '../../components';
@@ -89,7 +89,7 @@ class App extends Component {
                 <UploadDemo />
                 <AutocompleteDemo />
                 <SliderDemo />
-                <DateDemo />
+                {/*<DateDemo />*/}
                 <DndDemo />
                 <TimeDemo />
             </Col>

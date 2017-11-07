@@ -1,9 +1,4 @@
-'use strict'
-import IconDemo from "./Icon/index";
-import AutocompleteDemo from "./Autocomplete/index";
-import SliderDemo from "./Slider/index";
-import DateDemo from "./Datepicker/index";
-import TimeDemo from "./Timepicker/index";
+
 
 export MyComponent from './MyComponent/index.jsx'
 export Header from './Header/index.jsx'
@@ -42,6 +37,6 @@ export TransferDemo from './Transfer/index';
 export UploadDemo from './Upload/index';
 export AutocompleteDemo from './Autocomplete/index';
 export SliderDemo from './Slider/index';
-export DateDemo from './Datepicker';
+// export DateDemo from './Datepicker';
 export DndDemo from './Dnd';
 export TimeDemo from './Timepicker';
