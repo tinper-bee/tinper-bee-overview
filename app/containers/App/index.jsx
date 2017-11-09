@@ -11,7 +11,7 @@ import {
     LayoutDemo,
     LoadingDemo,
     TimelineDemo,
-    CalendarDemo,
+    // CalendarDemo,
     TableDemo,
     TreeDemo,
     BreadCrumbDemo,
@@ -38,9 +38,9 @@ import {
     UploadDemo,
     AutocompleteDemo,
     SliderDemo,
-    DateDemo,
-    DndDemo,
-    TimeDemo,
+    // DateDemo,
+    // DndDemo,
+    // TimeDemo,
 } from '../../components';
 
 import './index.less';
@@ -61,7 +61,7 @@ class App extends Component {
                 <ProgressBarDemo />
                 <TimelineDemo />
                 <LayoutDemo />
-                <CalendarDemo />
+                {/*<CalendarDemo />*/}
                 <TableDemo />
                 <TreeDemo />
                 <BreadCrumbDemo />
@@ -89,9 +89,9 @@ class App extends Component {
                 <UploadDemo />
                 <AutocompleteDemo />
                 <SliderDemo />
-                <DateDemo />
-                <DndDemo />
-                <TimeDemo />
+                {/*<DateDemo />*/}
+                {/*<DndDemo />*/}
+                {/*<TimeDemo />*/}
             </Col>
         </Row>
         <BackTop/>

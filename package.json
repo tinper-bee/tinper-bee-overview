@@ -50,7 +50,7 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router": "^3.0.0",
-    "tinper-bee": "^1.0.2"
+    "tinper-bee": "file:///Users/alex/work/yonyou/tinper/tinper-bee"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.3",
