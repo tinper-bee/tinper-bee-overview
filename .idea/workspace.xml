@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e89a7503-4967-4644-a990-0559fadb46d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/App/index.jsx" afterPath="$PROJECT_DIR$/app/containers/App/index.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/index.js" afterPath="$PROJECT_DIR$/app/components/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/App/index.jsx" afterPath="$PROJECT_DIR$/app/containers/App/index.jsx" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,22 +21,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/containers/App/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-220">
               <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <marker date="1509942502000" expanded="true" signature="1186:1206" ph="..." />
               </folding>
+=======
+            <state relative-caret-position="1040">
+              <caret line="40" column="2" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="16" />
+              <folding />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+=======
+        <entry file="file://$PROJECT_DIR$/app/components/Timepicker/index.js">
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="34" />
@@ -45,8 +61,13 @@
       <file leaf-file-name="tinper-bee.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/tinper-bee/assets/tinper-bee.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-63890">
               <caret line="0" column="214349" lean-forward="false" selection-start-line="0" selection-start-column="214349" selection-end-line="0" selection-end-column="214349" />
+=======
+            <state relative-caret-position="208">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
               <folding />
             </state>
           </provider>
@@ -55,7 +76,7 @@
       <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/Datepicker/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="130">
               <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
@@ -65,7 +86,11 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/components/Datepicker/index.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-815">
+=======
+            <state relative-caret-position="104">
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
@@ -75,9 +100,17 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/Timepicker/index.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-16">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
+=======
+            <state relative-caret-position="416">
+              <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
             </state>
           </provider>
         </entry>
@@ -85,11 +118,17 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="208">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
             </state>
           </provider>
         </entry>
@@ -97,9 +136,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="168">
               <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
               <folding />
+=======
+            <state relative-caret-position="1014">
+              <caret line="43" column="116" lean-forward="false" selection-start-line="43" selection-start-column="116" selection-end-line="43" selection-end-column="116" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
             </state>
           </provider>
         </entry>
@@ -117,8 +164,13 @@
       <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/Timepicker/index.less">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="192">
               <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+=======
+            <state relative-caret-position="312">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="39" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
               <folding />
             </state>
           </provider>
@@ -203,9 +255,9 @@
         <option value="$PROJECT_DIR$/app/components/Dnd/index.less" />
         <option value="$PROJECT_DIR$/app/components/Dnd/index.js" />
         <option value="$PROJECT_DIR$/app/components/Timepicker/index.less" />
+        <option value="$PROJECT_DIR$/app/components/Timepicker/index.js" />
         <option value="$PROJECT_DIR$/app/components/index.js" />
         <option value="$PROJECT_DIR$/app/containers/App/index.jsx" />
-        <option value="$PROJECT_DIR$/app/components/Timepicker/index.js" />
       </list>
     </option>
   </component>
@@ -224,9 +276,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+=======
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -253,6 +308,7 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+<<<<<<< HEAD
           <expand>
             <path>
               <item name="tinper-bee-overview" type="b2602c69:ProjectViewProjectNode" />
@@ -271,9 +327,94 @@
             </path>
           </expand>
           <select />
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="containers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tinper-bee-overview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,7 +422,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iuap/template-tinper-bee-admin" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -311,13 +452,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.index.js">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/app/components/Upload">
+      <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -356,6 +492,15 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -376,7 +521,9 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/app/components/Upload" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
+    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
@@ -395,12 +542,18 @@
       <updated>1505702285643</updated>
       <workItem from="1505702287143" duration="8084000" />
       <workItem from="1509334270274" duration="2162000" />
+<<<<<<< HEAD
       <workItem from="1509425227060" duration="20414000" />
       <workItem from="1509937611778" duration="4597000" />
+=======
+      <workItem from="1509425227060" duration="20211000" />
+      <workItem from="1510020914248" duration="1868000" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="35257000" />
   </component>
   <component name="ToolWindowManager">
@@ -415,6 +568,21 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="32325000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="959" extended-state="1" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24908648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -422,11 +590,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -436,6 +605,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/components/Step/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Tab/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Input/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/Input/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="52" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
     <entry file="file://$PROJECT_DIR$/app/components/Form/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -652,6 +856,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/containers/App/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
     <entry file="file://$PROJECT_DIR$/app/components/Alert/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -726,16 +940,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="52" column="23" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="23" />
+<<<<<<< HEAD
           <folding>
             <marker date="1509937620000" expanded="true" signature="1205:1531" ph="{&quot;bee-overlay&quot;: &quot;^1.0.0&quot;...}" />
             <marker date="1509937620000" expanded="true" signature="1554:2423" ph="{&quot;autoprefixer&quot;: &quot;^7.1.3&quot;...}" />
           </folding>
+=======
+          <folding />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/Slider/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="936">
+=======
+        <state relative-caret-position="1014">
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
           <caret line="43" column="116" lean-forward="false" selection-start-line="43" selection-start-column="116" selection-end-line="43" selection-end-column="116" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
@@ -753,16 +975,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/Dnd/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="384">
           <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
+=======
+        <state relative-caret-position="130">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1008">
           <caret line="46" column="15" lean-forward="false" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="15" />
           <folding>
@@ -775,22 +1004,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="104">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/containers/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="208">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="144">
           <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="34" />
+=======
+        <state relative-caret-position="416">
+          <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
@@ -807,12 +1050,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/containers/App/index.less">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="192">
           <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+=======
+        <state relative-caret-position="208">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/node_modules/tinper-bee/assets/tinper-bee.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63890">
@@ -828,11 +1077,19 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/app/components/Timepicker/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/containers/App/index.jsx">
+    <entry file="file://$PROJECT_DIR$/app/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-220">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
@@ -869,6 +1126,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-815">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+=======
+        <state relative-caret-position="312">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/containers/App/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="40" column="2" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="16" />
+>>>>>>> 2bec891fb0bded7123c3e0a436cb16ee6e58a71f
           <folding />
         </state>
       </provider>

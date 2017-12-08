@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu } from 'tinper-bee';
+import  Menu  from 'bee-menus';
 import { Link } from 'react-router';
 
 import './index.css';

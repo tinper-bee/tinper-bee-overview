@@ -1,9 +1,7 @@
-'use strict'
-import IconDemo from "./Icon/index";
-import AutocompleteDemo from "./Autocomplete/index";
-import SliderDemo from "./Slider/index";
-import DateDemo from "./Datepicker/index";
-import TimeDemo from "./Timepicker/index";
+
+
+import PopoverDemo from "./Popover/index";
+import CarouselDemo from "./Carousel/index";
 
 export MyComponent from './MyComponent/index.jsx'
 export Header from './Header/index.jsx'
@@ -45,3 +43,7 @@ export SliderDemo from './Slider/index';
 export DateDemo from './Datepicker';
 export DndDemo from './Dnd';
 export TimeDemo from './Timepicker';
+export LoadingStateDemo from './LoadingState';
+export PopoverDemo from './Popover';
+export LocaleDemo from './Locale';
+export CarouselDemo from './Carousel';

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Con, Row, Col, BackTop } from 'tinper-bee';
 import 'tinper-bee/assets/tinper-bee.css';
+import Modal from 'bee-modal';
 
 import {
     Header,
@@ -11,7 +12,7 @@ import {
     LayoutDemo,
     LoadingDemo,
     TimelineDemo,
-    // CalendarDemo,
+    CalendarDemo,
     TableDemo,
     TreeDemo,
     BreadCrumbDemo,
@@ -38,9 +39,13 @@ import {
     UploadDemo,
     AutocompleteDemo,
     SliderDemo,
-    // DateDemo,
-    // DndDemo,
-    // TimeDemo,
+    DateDemo,
+    DndDemo,
+    TimeDemo,
+    LoadingStateDemo,
+    PopoverDemo,
+    LocaleDemo,
+    CarouselDemo,
 } from '../../components';
 
 import './index.less';
@@ -48,7 +53,15 @@ import './index.less';
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+        show: true
+    }
   }
+    close = () => {
+      this.setState({
+          show: false
+      })
+    }
 
   render() {
     return (
@@ -61,7 +74,7 @@ class App extends Component {
                 <ProgressBarDemo />
                 <TimelineDemo />
                 <LayoutDemo />
-                {/*<CalendarDemo />*/}
+                <CalendarDemo />
                 <TableDemo />
                 <TreeDemo />
                 <BreadCrumbDemo />
@@ -89,9 +102,14 @@ class App extends Component {
                 <UploadDemo />
                 <AutocompleteDemo />
                 <SliderDemo />
-                {/*<DateDemo />*/}
-                {/*<DndDemo />*/}
-                {/*<TimeDemo />*/}
+                <DateDemo />
+                <DndDemo />
+                <TimeDemo />
+                <LoadingStateDemo />
+                <PopoverDemo />
+                <LocaleDemo />
+                <Menus />
+                <CarouselDemo />
             </Col>
         </Row>
         <BackTop/>
