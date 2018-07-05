@@ -1,6 +1,20 @@
-import { Con, Row, Col, Button, Modal, Tile } from 'tinper-bee';
+import { Con, Row, Col, Button, Modal, Tile, Transfer } from 'tinper-bee';
 import React, { Component } from 'react';
 import './index.less';
+
+const mockData = [];
+for (let i = 0; i < 20; i++) {
+    mockData.push({
+        key: i.toString(),
+        title: `content${i + 1}`,
+        description: `description of content${i + 1}`,
+        disabled: i % 3 < 1,
+    });
+}
+
+const targetKeys = mockData
+    .filter(item => +item.key % 3 > 1)
+    .map(item => item.key);
 
 export default class ModalDemo extends Component {
     constructor(props) {
@@ -8,13 +22,35 @@ export default class ModalDemo extends Component {
         this.state = {
             showModal1: false,
             showModal2: false,
-            modalSize: ''
+            modalSize: '',
+            targetKeys,
+            selectedKeys: [],
         };
         this.close1 = this.close1.bind(this);
         this.open1 = this.open1.bind(this);
         this.close2 = this.close2.bind(this);
         this.open2 = this.open2.bind(this);
         this.changeSize = this.changeSize.bind(this);
+    }
+
+    handleChange = (nextTargetKeys, direction, moveKeys) => {
+        this.setState({ targetKeys: nextTargetKeys });
+
+        console.log('targetKeys: ', targetKeys);
+        console.log('direction: ', direction);
+        console.log('moveKeys: ', moveKeys);
+    }
+
+    handleSelectChange = (sourceSelectedKeys, targetSelectedKeys) => {
+        this.setState({ selectedKeys: [...sourceSelectedKeys, ...targetSelectedKeys] });
+
+        console.log('sourceSelectedKeys: ', sourceSelectedKeys);
+        console.log('targetSelectedKeys: ', targetSelectedKeys);
+    }
+
+    handleScroll = (direction, e) => {
+        console.log('direction:', direction);
+        console.log('target:', e.target);
     }
 
     close1() {
@@ -63,7 +99,21 @@ export default class ModalDemo extends Component {
                             </Modal.Header>
 
                             <Modal.Body>
-                                这是一些描述。。。
+
+                                        <Transfer
+                                            dataSource={mockData}
+                                            titles={['Source', 'Target']}
+                                            targetKeys={this.state.targetKeys}
+                                            selectedKeys={this.state.selectedKeys}
+                                            onChange={this.handleChange}
+                                            onSelectChange={this.handleSelectChange}
+                                            onScroll={this.handleScroll}
+                                            render={item => item.title}
+                                            lazy={{container:"modal"}}
+                                        />
+
+
+
                             </Modal.Body>
 
                             <Modal.Footer>

@@ -29,14 +29,19 @@ module.exports = {
           loaders: ['react-hot', 'babel'],
           exclude: path.resolve(__dirname, 'node_modules')
         },
-        {
-          test: /\.css/,
-          loader: ExtractTextPlugin.extract("style-loader", "css-loader")
-        },
-        {
-          test: /\.less/,
-          loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
-        },
+          {
+              test: /\.css$/,
+              use: ExtractTextPlugin.extract({
+                  use: ["css-loader","postcss-loader"],
+                  fallback: "style-loader"
+              })
+          },{
+              test: /\.less$/,
+              use: ExtractTextPlugin.extract({
+                  use: ['css-loader', 'postcss-loader', 'less-loader'],
+                  fallback: 'style-loader'
+              })
+          },
         {
           test: /\.(png|jpg)$/,
           loader: 'url?limit=8192'
@@ -48,10 +53,10 @@ module.exports = {
       ]
     },
     plugins: [
-      new ExtractTextPlugin("main.[hash:8].css", {
-          allChunks: true,
-          disable: false
-      }),
+        new ExtractTextPlugin({
+            filename: "[name].[hash].css",
+            disable: false
+        }),
       new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.[hash:8].js'),
       new uglifyJsPlugin({
         compress: {

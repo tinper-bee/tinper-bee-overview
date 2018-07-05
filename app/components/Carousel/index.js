@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Carousel, Tile} from 'tinper-bee';
+import { Tile } from 'tinper-bee';
+import Carousel from 'tinper-bee/lib/Carousel';
 
 
 import './index.less';

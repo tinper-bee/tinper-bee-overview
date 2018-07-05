@@ -45,6 +45,11 @@ module.exports = {
             containers: path.resolve(__dirname, 'src/containers'),
         }
     },
+    externals: {
+        'react': 'React',
+        'react-dom': 'ReactDOM',
+        'prop-types': 'PropTypes',
+    },
     devtool: 'cheap-source-map',
     module: {
         rules: [

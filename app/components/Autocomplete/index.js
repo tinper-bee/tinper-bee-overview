@@ -16,6 +16,7 @@ export default class AutocompleteDemo extends Component {
         this.onFormChange = this.onFormChange.bind(this);
     }
     onFormChange(value) {
+        console.log(value);
         this.setState({
             value: value
         })

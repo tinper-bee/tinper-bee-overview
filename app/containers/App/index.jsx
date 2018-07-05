@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Con, Row, Col, BackTop } from 'tinper-bee';
-import 'tinper-bee/assets/tinper-bee.css';
+//import 'tinper-bee/assets/tinper-bee.css';
 import Modal from 'bee-modal';
 
+console.log(Con);
 import {
     Header,
     Menus,
@@ -39,12 +40,11 @@ import {
     UploadDemo,
     AutocompleteDemo,
     SliderDemo,
-    DateDemo,
-    DndDemo,
-    TimeDemo,
+    //DateDemo,
+    //DndDemo,
+    //TimeDemo,
     LoadingStateDemo,
     PopoverDemo,
-    LocaleDemo,
     CarouselDemo,
 } from '../../components';
 
@@ -74,7 +74,7 @@ class App extends Component {
                 <ProgressBarDemo />
                 <TimelineDemo />
                 <LayoutDemo />
-                <CalendarDemo />
+                {/*<CalendarDemo />*/}
                 <TableDemo />
                 <TreeDemo />
                 <BreadCrumbDemo />
@@ -102,12 +102,12 @@ class App extends Component {
                 <UploadDemo />
                 <AutocompleteDemo />
                 <SliderDemo />
-                <DateDemo />
-                <DndDemo />
-                <TimeDemo />
+                {/*<DateDemo />*/}
+                {/*<DndDemo />*/}
+                {/*<TimeDemo />*/}
                 <LoadingStateDemo />
                 <PopoverDemo />
-                <LocaleDemo />
+                {/*<LocaleDemo />*/}
                 <Menus />
                 <CarouselDemo />
             </Col>

@@ -33,15 +33,16 @@ export default class PaginationDemo extends React.Component {
                     </div>
                     <div className="pagination-demo-row">
                         <Pagination
-                            first
-                            last
-                            prev
-                            next
-                            boundaryLinks
-                            items={20}
-                            maxButtons={5}
-                            activePage={this.state.activePage}
-                            onSelect={this.handleSelect2.bind(this)} />
+                             first
+                             last
+                             prev
+                             next
+                             boundaryLinks
+                             items={20}
+                             maxButtons={5}
+                             activePage={this.state.activePage}
+                             onSelect={this.handleSelect2.bind(this)}
+                         />
                     </div>
                 </Tile>
             </div>
