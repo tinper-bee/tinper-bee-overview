@@ -86,35 +86,34 @@ class App extends Component {
                 <BreadCrumbDemo />
                 <PaginationDemo />
                 <TooltipDemo />
+                <PopoverDemo />
                 <StepDemo />
                 <SliderDemo />
                 <TabDemo />
+                <CascaderDemo />
+                <AutocompleteDemo />
                 <ProgressBarDemo />
+                <IconDemo />
+                <BackTopDemo />
+                <InputNumberDemo />
+                <ClipboardDemo />
+                <AlertDemo />
                 <TimelineDemo />
                 {/* <LayoutDemo /> */}
                 {/*<CalendarDemo />*/}
+                <TransferDemo />
                 <TableDemo />
-                <LoadingDemo />
-                <NotificationDemo />
+                {/* <NotificationDemo /> */}
                 <PanelDemo />
                 {/* <FormDemo /> */}
-                <IconDemo />
-                <InputNumberDemo />
-                <AlertDemo />
-                <BackTopDemo />
-                <CascaderDemo />
-                
-                <ClipboardDemo />
-                <TransferDemo />
                 <UploadDemo />
-                <AutocompleteDemo />
                 {/*<DateDemo />*/}
                 {/*<DndDemo />*/}
                 {/*<TimeDemo />*/}
-                <PopoverDemo />
                 {/*<LocaleDemo />*/}
                 <Menus />
-                <CarouselDemo />
+                <LoadingDemo />
+                {/* <CarouselDemo /> */}
                 {/* <SelectDemo /> */}
             </Col>
         </Row>

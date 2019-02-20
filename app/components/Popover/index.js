@@ -24,14 +24,23 @@ export default class PopoverDemo extends Component {
         )
         return (
             <div className="popover-demo">
-                <Tile className="popover-demo-tile">
+                <Tile className="popover-demo-tile demo-tile">
                     <h3>气泡卡片</h3>
                     <div className="popover-demo-row">
+                        <Popover
+                            trigger="hover"
+                            content={content}
+                            id="popover"
+                            placement="top">
+                            <Button colors="primary">
+                                悬停显示
+                            </Button>
+                        </Popover>
                         <Popover
                             trigger="click"
                             content={content}
                             id="popover"
-                            placement="top">
+                            placement="right">
                             <Button colors="primary">
                                 点击显示
                             </Button>

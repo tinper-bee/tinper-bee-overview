@@ -49,7 +49,7 @@ export default class UploadDemo extends Component {
     render() {
         return (
             <div className="upload-demo">
-                <Tile className="upload-demo-tile">
+                <Tile className="upload-demo-tile demo-tile">
                     <h3>上传</h3>
                     <div className="upload-demo-row">
                         <Upload {...props}>

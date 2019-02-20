@@ -12,7 +12,7 @@ export default class AlertDemo extends Component {
     render() {
         return (
             <div className="alert-demo">
-                <Tile className="alert-demo-tile">
+                <Tile className="alert-demo-tile demo-tile">
                     <h3>提醒</h3>
                     <div className="alert-demo-row">
                         <Alert colors="news">

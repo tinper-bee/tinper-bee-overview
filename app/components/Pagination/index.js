@@ -41,7 +41,7 @@ export default class PaginationDemo extends React.Component {
                              boundaryLinks
                              items={20}
                              maxButtons={5}
-                             activePage={this.state.activePage}
+                             activePage={this.state.activePage2}
                              onSelect={this.handleSelect2.bind(this)}
                          />
                     </div>

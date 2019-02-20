@@ -12,7 +12,7 @@ export default class ClipboardDemo extends Component {
     render() {
         return (
             <div className="clipboard-demo">
-                <Tile className="clipboard-demo-tile">
+                <Tile className="clipboard-demo-tile demo-tile">
                     <h3>复制</h3>
                     <div className="clipboard-demo-row">
                         <Clipboard action="copy" text="默认复制-我将被复制到剪切板" />

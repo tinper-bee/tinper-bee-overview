@@ -22,12 +22,12 @@ export default class RadioDemo extends Component {
                             name="fruits"
                             selectedValue={this.state.selectedValue}
                             onChange={this.handleChange.bind(this)}>
-                            <Radio value="1" >苹果</Radio>
-                            <Radio value="2" >香蕉</Radio>
-                            <Radio value="3" >葡萄</Radio>
-                            <Radio value="4" >菠萝</Radio>
-                            <Radio value="5" >梨</Radio>
-                            <Radio value="6" >石榴</Radio>
+                            <Radio colors="primary" value="1" >苹果</Radio>
+                            <Radio colors="success" value="2" >香蕉</Radio>
+                            <Radio colors="info" value="3" >葡萄</Radio>
+                            <Radio colors="warning" value="4" >菠萝</Radio>
+                            <Radio colors="danger" value="5" >梨</Radio>
+                            <Radio colors="dark" value="6" >石榴</Radio>
                         </Radio.RadioGroup>   
                     </div>
                 </Tile>
