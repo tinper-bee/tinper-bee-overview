@@ -34,13 +34,13 @@ export default class TableDemo extends Component {
                         emptyText={emptyFunc}
                         />
                 </Tile>
-                <Tile className="table-demo-tile demo-tile">
+                {/* <Tile className="table-demo-tile demo-tile">
                     <Table
                         columns={columns}
                         data={data2}
                         emptyText={emptyFunc}
                         />
-                </Tile>
+                </Tile> */}
             </div>
         )
     }

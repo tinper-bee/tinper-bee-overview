@@ -34,6 +34,11 @@ export default class MessageDemo extends Component {
                     <h3>消息</h3>
                     <div className="message-demo-row">
                         <Button
+                            colors="primary"
+                            onClick={loading}>
+                            dark
+                        </Button>
+                        <Button
                             colors="info"
                             onClick={info}>
                             info
@@ -53,11 +58,8 @@ export default class MessageDemo extends Component {
                             onClick={success}>
                             success
                         </Button>
-
-                    </div>
-                    <div className="message-demo-row">
-                        <Button
-                            colors="primary"
+                        {/* <Button
+                            colors="dark"
                             onClick={loading}>
                             dark
                         </Button>
@@ -65,8 +67,11 @@ export default class MessageDemo extends Component {
                             bordered
                             onClick={light}>
                             light
-                        </Button>
+                        </Button> */}
                     </div>
+                    {/* <div className="message-demo-row">
+                        
+                    </div> */}
                 </Tile>
             </div>
         )

@@ -23,7 +23,7 @@ export default class LoadingStateDemo extends Component {
     render() {
         return (
             <div className="loading-state-demo">
-                <Tile className="loading-state-demo-tile">
+                <Tile className="loading-state-demo-tile demo-tile">
                     <h3>加载按钮</h3>
                     <div className="loading-state-demo-row">
                         <LoadingState

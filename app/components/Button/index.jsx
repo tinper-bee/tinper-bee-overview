@@ -14,10 +14,10 @@ export default class ButtonDemo extends Component{
                     <h3>基本按钮</h3>
                     <div className="button-demo-row">
                         <Button colors="primary">primary</Button>
-                        <Button colors="accent">accent</Button>
-                        <Button bordered>border</Button>
+                        <Button colors="default">default</Button>
+                        <Button shape="border">border</Button>
                     </div>
-                    <div className="button-demo-row">
+                    {/* <div className="button-demo-row">
                         <Button colors="success">success</Button>
                         <Button colors="info">info</Button>
                         <Button colors="warning">warning</Button>
@@ -28,9 +28,9 @@ export default class ButtonDemo extends Component{
                         <Button bordered colors="info">info</Button>
                         <Button bordered colors="warning">warning</Button>
                         <Button bordered colors="danger">danger</Button>
-                    </div>
+                    </div> */}
                 </Tile>
-                <Tile className="button-demo-tile demo-tile">
+                {/* <Tile className="button-demo-tile demo-tile">
                     <h3>不同形状按钮</h3>
                     <div className="button-demo-row">
                         <Button size="sm" colors="primary">小按钮</Button>
@@ -74,7 +74,7 @@ export default class ButtonDemo extends Component{
                             <Button colors="warning"><Icon type='uf-del' /></Button>
                         </ButtonGroup>
                     </div>
-                </Tile>
+                </Tile> */}
             </div>
         )
     }

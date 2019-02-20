@@ -83,56 +83,32 @@ export default class ModalDemo extends Component {
         return (
             <div className="modal-demo">
                 <Tile className="modal-demo-tile demo-tile">
-
+                    <h3>模态框</h3>
                     <div className="modal-demo-row">
                         <Button
                             colors = "primary"
-                            size = "lg"
                             onClick = { this.open1 }>
                             打开模态框
                         </Button>
                         <Modal
                             show = { this.state.showModal1 }
                             onHide = { this.close1 } >
-                            <Modal.Header>
-                                <Modal.Title>这是题目</Modal.Title>
-                            </Modal.Header>
+                                <Modal.Header closeButton>
+                                    <Modal.Title>这是题目</Modal.Title>
+                                </Modal.Header>
 
-                            <Modal.Body>
+                                <Modal.Body>
+                                    这是一些描述。。。
+                                </Modal.Body>
 
-                                        <Transfer
-                                            dataSource={mockData}
-                                            titles={['Source', 'Target']}
-                                            targetKeys={this.state.targetKeys}
-                                            selectedKeys={this.state.selectedKeys}
-                                            onChange={this.handleChange}
-                                            onSelectChange={this.handleSelectChange}
-                                            onScroll={this.handleScroll}
-                                            render={item => item.title}
-                                            lazy={{container:"modal"}}
-                                        />
-
-
-
-                            </Modal.Body>
-
-                            <Modal.Footer>
-                                <Button
-                                    onClick={ this.close1 }
-                                    bordered
-                                    style={{marginRight: 50}}>
-                                    关闭
-                                </Button>
-                                <Button
-                                    onClick={ this.close1 }
-                                    colors="primary">
-                                    确认
-                                </Button>
-                            </Modal.Footer>
+                                <Modal.Footer>
+                                    <Button onClick={ this.close1 } shape="border" style={{marginRight: 8}}>关闭</Button>
+                                    <Button onClick={ this.close1 } colors="primary">确认</Button>
+                                </Modal.Footer>
                         </Modal>
                     </div>
 
-                    <div className="notification-demo-row">
+                    {/* <div className="notification-demo-row">
                         <Button   colors="primary" size="lg" onClick={ ()=>{this.changeSize("sm");this.open2();} }>
                             打开小号模态框
                         </Button>
@@ -180,7 +156,7 @@ export default class ModalDemo extends Component {
                                 <Button onClick={ this.close2 }> 关闭 </Button>
                             </Modal.Footer>
                         </Modal>
-                    </div>
+                    </div> */}
 
                 </Tile>
             </div>

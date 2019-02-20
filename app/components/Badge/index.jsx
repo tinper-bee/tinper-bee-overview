@@ -18,14 +18,14 @@ export default class BadgeDemo extends Component{
                         <Badge colors="dark" >1</Badge>
 
                     </div>
-                    <div className="badge-demo-row">
+                    {/* <div className="badge-demo-row">
                         <Badge dataBadge={4} dataBadgePlacement="bottom">
                             <Icon type="uf-bell" />
                         </Badge>
                         <Badge dataBadge={4} colors="warning" dataBadgePlacement="up">
                             <Icon type="uf-bell" />
                         </Badge>
-                    </div>
+                    </div> */}
                 </Tile>
             </div>
         )

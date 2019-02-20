@@ -1,6 +1,4 @@
 
-
-
 //export MyComponent from './MyComponent/index.jsx'
 export Header from './Header/index.jsx'
 export Menus from './Menus/index.jsx'
@@ -45,3 +43,6 @@ export LoadingStateDemo from './LoadingState';
 export PopoverDemo from './Popover';
 //export LocaleDemo from './Locale';
 export CarouselDemo from './Carousel';
+// export SelectDemo from './Select/index.js';
+export RadioDemo from './Radio';
+export SwitchDemo from './Switch';

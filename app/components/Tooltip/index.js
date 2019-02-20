@@ -22,7 +22,7 @@ export default class TooltipDemo extends Component {
                 <Tile className="tooltip-demo-tile demo-tile">
                     <h3>文字提示</h3>
                     <div className="tooltip-demo-row">
-                        <Tooltip overlay = {tooltip1()}  placement="top">
+                        <Tooltip overlay = {tooltip1()}  placement="right">
                             <Button colors="primary">tooltip</Button>
                         </Tooltip>
                     </div>

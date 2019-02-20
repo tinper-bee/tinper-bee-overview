@@ -46,6 +46,9 @@ import {
     LoadingStateDemo,
     PopoverDemo,
     CarouselDemo,
+    // SelectDemo,
+    RadioDemo,
+    SwitchDemo
 } from '../../components';
 
 import './index.less';
@@ -70,48 +73,49 @@ class App extends Component {
         <Row>
             <Col sm={12}>
                 <ButtonDemo />
+                <LoadingStateDemo />
+                <ModalDemo />
+                <PopconfirmDemo />
+                <MessageDemo />
+                <DropdownDemo />
+                <RadioDemo />
+                <CheckboxDemo />
+                <SwitchDemo />
                 <BadgeDemo />
+                <RateDemo />
+                <BreadCrumbDemo />
+                <PaginationDemo />
+                <TooltipDemo />
+                <StepDemo />
+                <SliderDemo />
+                <TabDemo />
                 <ProgressBarDemo />
                 <TimelineDemo />
-                <LayoutDemo />
+                {/* <LayoutDemo /> */}
                 {/*<CalendarDemo />*/}
                 <TableDemo />
-                <TreeDemo />
-                <BreadCrumbDemo />
-                <CheckboxDemo />
                 <LoadingDemo />
-                <ModalDemo />
                 <NotificationDemo />
-                
-                <PaginationDemo />
-                <MessageDemo />
-                <TooltipDemo />
                 <PanelDemo />
-                <TabDemo />
-                <StepDemo />
                 {/* <FormDemo /> */}
-                <RateDemo />
                 <IconDemo />
                 <InputNumberDemo />
-                <PopconfirmDemo />
                 <AlertDemo />
                 <BackTopDemo />
                 <CascaderDemo />
                 
-                <DropdownDemo />
                 <ClipboardDemo />
                 <TransferDemo />
                 <UploadDemo />
                 <AutocompleteDemo />
-                <SliderDemo />
                 {/*<DateDemo />*/}
                 {/*<DndDemo />*/}
                 {/*<TimeDemo />*/}
-                <LoadingStateDemo />
                 <PopoverDemo />
                 {/*<LocaleDemo />*/}
                 <Menus />
                 <CarouselDemo />
+                {/* <SelectDemo /> */}
             </Col>
         </Row>
         <BackTop/>

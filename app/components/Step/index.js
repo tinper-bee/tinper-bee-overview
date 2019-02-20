@@ -10,7 +10,8 @@ export default class StephDemo extends Component {
     render () {
         return (
             <div className="step-demo">
-                <Tile className="step-demo-tile" >
+                <Tile className="step-demo-tile demo-tile" >
+                    <h3>步骤条</h3>
                     <div className="step-demo-row" >
                         <Step.Steps current={1}>
                             <Step title="Finished" description="This is a description." />

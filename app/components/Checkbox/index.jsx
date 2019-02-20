@@ -20,16 +20,19 @@ export default class CheckboxDemo extends Component{
         return (
             <div className="checkbox-demo">
                 <Tile className="checkbox-demo-tile demo-tile">
-                    <Checkbox
-                        className="test"
-                        onChange={this.onChange}>
-                        checkbox
-                    </Checkbox>
-                    <Checkbox
-                         checked={this.state.checked}
-                         onChange={this.onChange}>
-                        全选成都市
-                    </Checkbox>
+                    <h3>复选框</h3>
+                    <div className="button-demo-row">
+                        <Checkbox
+                            className="test"
+                            onChange={this.onChange}>
+                            checkbox
+                        </Checkbox>
+                        <Checkbox
+                            checked={this.state.checked}
+                            onChange={this.onChange}>
+                            全选成都市
+                        </Checkbox>
+                    </div>
                 </Tile>
             </div>
         )

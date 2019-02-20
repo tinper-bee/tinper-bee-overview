@@ -1,3 +1,5 @@
 'use strict';
-export App from './App/index.jsx';
-export AppTheme from './AppTheme/index.jsx';
+import App from './App/index.jsx';
+import AppTheme from './AppTheme/index.jsx';
+
+export { App,AppTheme };

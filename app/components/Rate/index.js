@@ -22,7 +22,7 @@ export default class RateDemo extends Component {
     render() {
         return (
             <div className="rate-demo">
-                <Tile className="rate-demo-tile">
+                <Tile className="rate-demo-tile demo-tile">
                     <h3>评分</h3>
                     <div className="rate-demo-row">
                         <Rate onChange={this.handleChange} count={8} onHoverChange={this.onHoverChange}/>
