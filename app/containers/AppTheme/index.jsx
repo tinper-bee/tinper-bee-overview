@@ -98,6 +98,7 @@ class App extends Component {
                 <InputNumberDemo />
                 <ClipboardDemo />
                 <AlertDemo />
+                <FormDemo />
                 <TimelineDemo />
                 {/* <LayoutDemo /> */}
                 {/*<CalendarDemo />*/}
@@ -105,7 +106,6 @@ class App extends Component {
                 <TableDemo />
                 {/* <NotificationDemo /> */}
                 <PanelDemo />
-                {/* <FormDemo /> */}
                 <UploadDemo />
                 {/*<DateDemo />*/}
                 {/*<DndDemo />*/}
