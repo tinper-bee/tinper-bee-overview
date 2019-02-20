@@ -82,13 +82,14 @@ class App extends Component {
                 <LoadingDemo />
                 <ModalDemo />
                 <NotificationDemo />
+                
                 <PaginationDemo />
                 <MessageDemo />
                 <TooltipDemo />
                 <PanelDemo />
                 <TabDemo />
                 <StepDemo />
-                <FormDemo />
+                {/* <FormDemo /> */}
                 <RateDemo />
                 <IconDemo />
                 <InputNumberDemo />
@@ -96,6 +97,7 @@ class App extends Component {
                 <AlertDemo />
                 <BackTopDemo />
                 <CascaderDemo />
+                
                 <DropdownDemo />
                 <ClipboardDemo />
                 <TransferDemo />

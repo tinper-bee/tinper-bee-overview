@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import PropTypes from 'prop-types';
 import routes from './routes';
-import 'tinper-bee/assets/tinper-bee.css';
+// import 'tinper-bee/assets/tinper-bee.css';
 
 require('es5-shim');
 require('es5-shim/es5-sham');
