@@ -42,10 +42,13 @@ import {
     SliderDemo,
     //DateDemo,
     //DndDemo,
-    //TimeDemo,
+    TimeDemo,
     LoadingStateDemo,
     PopoverDemo,
     CarouselDemo,
+    // SelectDemo,
+    RadioDemo,
+    SwitchDemo
 } from '../../components';
 
 import './index.less';
@@ -70,48 +73,49 @@ class App extends Component {
         <Row>
             <Col sm={12}>
                 <ButtonDemo />
-                <BadgeDemo />
-                <ProgressBarDemo />
-                <TimelineDemo />
-                <LayoutDemo />
-                {/*<CalendarDemo />*/}
-                <TableDemo />
-                <TreeDemo />
-                <BreadCrumbDemo />
-                <CheckboxDemo />
-                <LoadingDemo />
+                <LoadingStateDemo />
                 <ModalDemo />
-                <NotificationDemo />
-                
-                <PaginationDemo />
-                <MessageDemo />
-                <TooltipDemo />
-                <PanelDemo />
-                <TabDemo />
-                <StepDemo />
-                {/* <FormDemo /> */}
-                <RateDemo />
-                <IconDemo />
-                <InputNumberDemo />
                 <PopconfirmDemo />
-                <AlertDemo />
-                <BackTopDemo />
-                <CascaderDemo />
-                
+                {/* <MessageDemo /> */}
                 <DropdownDemo />
-                <ClipboardDemo />
-                <TransferDemo />
-                <UploadDemo />
-                <AutocompleteDemo />
+                {/* <RadioDemo />
+                <CheckboxDemo />
+                <SwitchDemo />
+                <BadgeDemo /> */}
+                {/* <RateDemo /> */}
+                <BreadCrumbDemo />
+                {/* <PaginationDemo /> */}
+                <TooltipDemo />
+                <PopoverDemo />
+                <StepDemo />
                 <SliderDemo />
+                <TabDemo />
+                <CascaderDemo />
+                <AutocompleteDemo />
+                <TimeDemo />
+                <ProgressBarDemo />
+                {/* <IconDemo /> */}
+                {/* <BackTopDemo /> */}
+                {/* <InputNumberDemo /> */}
+                {/* <ClipboardDemo /> */}
+                {/* <AlertDemo /> */}
+                <TimelineDemo />
+                <TreeDemo />
+                <FormDemo />
+                {/* <LayoutDemo /> */}
+                <TransferDemo />
+                <TableDemo />
+                {/* <NotificationDemo /> */}
+                <UploadDemo />
+                {/* <PanelDemo /> */}
                 {/*<DateDemo />*/}
                 {/*<DndDemo />*/}
-                {/*<TimeDemo />*/}
-                <LoadingStateDemo />
-                <PopoverDemo />
                 {/*<LocaleDemo />*/}
-                <Menus />
-                <CarouselDemo />
+                <Menus /> 
+                <CalendarDemo />
+                <LoadingDemo />
+                {/* <CarouselDemo /> */}
+                {/* <SelectDemo /> */}
             </Col>
         </Row>
         <BackTop/>

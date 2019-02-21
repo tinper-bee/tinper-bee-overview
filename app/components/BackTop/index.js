@@ -12,7 +12,7 @@ export default class BackTopDemo extends Component {
     render() {
         return (
             <div className="backdrop-demo">
-                <Tile className="backdrop-demo-tile">
+                <Tile className="backdrop-demo-tile demo-tile">
                     <h3>回到顶部</h3>
                     <div className="backdrop-demo-row">
                         <BackTop target={() => this} character="UP"/>

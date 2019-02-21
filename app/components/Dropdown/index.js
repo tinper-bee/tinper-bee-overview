@@ -35,7 +35,7 @@ export default class DropdownDemo extends Component {
     render() {
         return (
             <div className="dropdown-demo">
-                <Tile className="dropdown-demo-tile">
+                <Tile className="dropdown-demo-tile demo-tile">
                     <h3>下拉组件</h3>
                     <div className="dropdown-demo-row">
                         <Dropdown

@@ -6,6 +6,7 @@ export default class BreadCrumbDemo extends Component {
         return (
             <div className="braed-crumb-demo">
                 <Tile className="bread-crumb-demo-tile demo-tile">
+                    <h3>面包屑</h3>
                     <Breadcrumb>
                         <Breadcrumb.Item href="#">
                             Home
@@ -18,7 +19,7 @@ export default class BreadCrumbDemo extends Component {
                         </Breadcrumb.Item>
                     </Breadcrumb>
 
-                    <Breadcrumb>
+                    {/* <Breadcrumb>
                         <Breadcrumb.Item href="#">
                             Home
                         </Breadcrumb.Item>
@@ -28,7 +29,7 @@ export default class BreadCrumbDemo extends Component {
                         <Breadcrumb.Item active={false} href="#" title="this is a link">
                             Data
                         </Breadcrumb.Item>
-                    </Breadcrumb>
+                    </Breadcrumb> */}
                 </Tile>
             </div>
         )

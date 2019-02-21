@@ -29,20 +29,20 @@ export default class SliderDemo extends Component {
         };
         return (
             <div className="slider-demo">
-                <Tile className="slider-demo-tile">
+                <Tile className="slider-demo-tile demo-tile">
                     <h3>滑块</h3>
-                    <div className="slider-demo-row">
+                    {/* <div className="slider-demo-row">
                         <Slider defaultValue={20} />
-                    </div>
-                    <div className="slider-demo-row">
-                        <Slider.Range min={-10} marks={marks} onChange={() => {}} defaultValue={[20, 40]} />
-                    </div>
+                    </div> */}
                     <div className="slider-demo-row">
                         <SliderTooltip min={0} max={100} defaultValue={45} tipFormatter={value => `${value}%`}/>
                     </div>
                     <div className="slider-demo-row">
-                        <RangeTooltip min={0} max={20} defaultValue={[3, 10]} tipFormatter={value => `${value}%`} />
+                        <Slider.Range min={-10} marks={marks} onChange={() => {}} defaultValue={[20, 40]} />
                     </div>
+                    {/* <div className="slider-demo-row">
+                        <RangeTooltip min={0} max={20} defaultValue={[3, 10]} tipFormatter={value => `${value}%`} />
+                    </div> */}
                 </Tile>
             </div>
         )

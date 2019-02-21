@@ -27,7 +27,7 @@ export default class AutocompleteDemo extends Component {
         let { value, options, placeholder,disabled} = this.state;
         return (
             <div className="autocomplete-demo">
-                <Tile className="autocomplete-demo-tile">
+                <Tile className="autocomplete-demo-tile demo-tile">
                     <h3>自动补全</h3>
                     <div className="autocomplete-demo-row">
                         <Autocomplete

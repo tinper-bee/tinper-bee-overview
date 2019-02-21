@@ -12,7 +12,7 @@ export default class IconDemo extends Component {
     render() {
         return (
             <div className="icon-demo">
-                <Tile className="icon-demo-tile">
+                <Tile className="icon-demo-tile demo-tile">
                     <h3>图标</h3>
                     <div className="icon-demo-row">
                        <Icon type="uf-plus" />

@@ -13,7 +13,7 @@ export default class TimeDemo extends Component {
     render() {
         return (
             <div className="time-demo">
-                <Tile className="time-demo-tile">
+                <Tile className="time-demo-tile demo-tile">
                     <h3>时间</h3>
                     <div className="time-demo-row">
                         <Timepicker placeholder="选择时间" onChange={() => {}} defaultOpenValue={moment('00:00:00', 'HH:mm:ss')} />

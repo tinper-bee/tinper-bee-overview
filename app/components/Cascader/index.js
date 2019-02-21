@@ -49,7 +49,7 @@ export default class CascaderDemo extends Component {
     render() {
         return (
             <div className="cascader-demo">
-                <Tile className="cascader-demo-tile">
+                <Tile className="cascader-demo-tile demo-tile">
                     <h3>级联菜单</h3>
                     <div className="cascader-demo-row">
                         <Cascader options = {options} />

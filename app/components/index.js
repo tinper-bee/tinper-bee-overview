@@ -1,6 +1,4 @@
 
-
-
 //export MyComponent from './MyComponent/index.jsx'
 export Header from './Header/index.jsx'
 export Menus from './Menus/index.jsx'
@@ -10,7 +8,7 @@ export ProgressBarDemo from './ProgressBar/index.jsx'
 export LayoutDemo from './Layout/index.jsx'
 export LoadingDemo from './Loading/index.jsx'
 export TimelineDemo from './TimeLine/index.jsx'
-//export CalendarDemo from './Calendar/index.jsx'
+export CalendarDemo from './Calendar/index.jsx'
 export TableDemo from './Table/index.jsx'
 export TreeDemo from './Tree/index.jsx'
 export BreadCrumbDemo from './Breadcrumb/index.jsx'
@@ -40,8 +38,11 @@ export AutocompleteDemo from './Autocomplete/index';
 export SliderDemo from './Slider/index';
 //export DateDemo from './Datepicker';
 //export DndDemo from './Dnd';
-//export TimeDemo from './Timepicker';
+export TimeDemo from './Timepicker';
 export LoadingStateDemo from './LoadingState';
 export PopoverDemo from './Popover';
 //export LocaleDemo from './Locale';
 export CarouselDemo from './Carousel';
+// export SelectDemo from './Select/index.js';
+export RadioDemo from './Radio';
+export SwitchDemo from './Switch';

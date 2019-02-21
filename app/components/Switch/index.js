@@ -19,13 +19,19 @@ export default class SwitchDemo extends Component {
     render () {
         return (
             <div className="switch-demo">
-                <Tile className="switch-demo-tile" >
+                <Tile className="switch-demo-tile demo-tile" >
+                    <h3>开关</h3>
                     <div className="switch-demo-row" >
-                        <Switch />
                         <Switch defaultChecked={true}/>
-                        <Switch checked/>
+                        <Switch
+                        style={{marginRight:8+'px'}} 
+                        defaultChecked={this.state.checked}   
+                        onChangeHandler = {this.changeHandle} 
+                        checkedChildren={'on'} 
+                        unCheckedChildren={'off'} />
+                        <span>{ this.state.switch }</span>
                     </div>
-                    <div className="switch-demo-row">
+                    {/* <div className="switch-demo-row">
                         <Switch checked={true} size='sm' />
                         <Switch checked={true} />
                         <Switch checked={true} size='lg' />
@@ -33,7 +39,7 @@ export default class SwitchDemo extends Component {
                     <div className="switch-demo-row">
                         <Switch defaultChecked={this.state.checked}   onChangeHandler = {this.changeHandle} checkedChildren={'on'} unCheckedChildren={'off'} />
                         <span>{ this.state.switch }</span>
-                    </div>
+                    </div> */}
                 </Tile>
             </div>
         )

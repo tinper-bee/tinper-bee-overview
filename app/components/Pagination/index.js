@@ -24,13 +24,14 @@ export default class PaginationDemo extends React.Component {
         return (
             <div className="pagination-demo">
                 <Tile className="pagination-demo-tile demo-tile">
-                    <div className="pagination-demo-row">
+                    <h3>分页</h3>
+                    {/* <div className="pagination-demo-row">
                         <Pagination
                             boundaryLinks
                             items={10}
                             activePage={this.state.activePage}
                             onSelect={this.handleSelect1.bind(this)} />
-                    </div>
+                    </div> */}
                     <div className="pagination-demo-row">
                         <Pagination
                              first
@@ -40,7 +41,7 @@ export default class PaginationDemo extends React.Component {
                              boundaryLinks
                              items={20}
                              maxButtons={5}
-                             activePage={this.state.activePage}
+                             activePage={this.state.activePage2}
                              onSelect={this.handleSelect2.bind(this)}
                          />
                     </div>
