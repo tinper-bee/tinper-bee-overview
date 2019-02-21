@@ -42,7 +42,7 @@ import {
     SliderDemo,
     //DateDemo,
     //DndDemo,
-    //TimeDemo,
+    TimeDemo,
     LoadingStateDemo,
     PopoverDemo,
     CarouselDemo,
@@ -76,15 +76,15 @@ class App extends Component {
                 <LoadingStateDemo />
                 <ModalDemo />
                 <PopconfirmDemo />
-                <MessageDemo />
+                {/* <MessageDemo /> */}
                 <DropdownDemo />
-                <RadioDemo />
+                {/* <RadioDemo />
                 <CheckboxDemo />
                 <SwitchDemo />
-                <BadgeDemo />
-                <RateDemo />
+                <BadgeDemo /> */}
+                {/* <RateDemo /> */}
                 <BreadCrumbDemo />
-                <PaginationDemo />
+                {/* <PaginationDemo /> */}
                 <TooltipDemo />
                 <PopoverDemo />
                 <StepDemo />
@@ -92,26 +92,27 @@ class App extends Component {
                 <TabDemo />
                 <CascaderDemo />
                 <AutocompleteDemo />
+                <TimeDemo />
                 <ProgressBarDemo />
-                <IconDemo />
-                <BackTopDemo />
-                <InputNumberDemo />
-                <ClipboardDemo />
-                <AlertDemo />
-                <FormDemo />
+                {/* <IconDemo /> */}
+                {/* <BackTopDemo /> */}
+                {/* <InputNumberDemo /> */}
+                {/* <ClipboardDemo /> */}
+                {/* <AlertDemo /> */}
                 <TimelineDemo />
+                <TreeDemo />
+                <FormDemo />
                 {/* <LayoutDemo /> */}
-                {/*<CalendarDemo />*/}
                 <TransferDemo />
                 <TableDemo />
                 {/* <NotificationDemo /> */}
-                <PanelDemo />
                 <UploadDemo />
+                {/* <PanelDemo /> */}
                 {/*<DateDemo />*/}
                 {/*<DndDemo />*/}
-                {/*<TimeDemo />*/}
                 {/*<LocaleDemo />*/}
-                <Menus />
+                <Menus /> 
+                <CalendarDemo />
                 <LoadingDemo />
                 {/* <CarouselDemo /> */}
                 {/* <SelectDemo /> */}

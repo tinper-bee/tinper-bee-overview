@@ -1,6 +1,7 @@
-import {  Form, Tile, FormControl, Select, Radio, Label, Checkbox, Rate, Switch } from 'tinper-bee';
+import {  Form, Tile, FormControl, Radio, Label, Checkbox, Rate, Switch } from 'tinper-bee';
+import DatePicker from 'tinper-bee/lib/Datepicker';
+import Select from 'bee-select';
 import React, {Component} from 'react';
-
 import './index.less';
 
 const FormItem = Form.FormItem;
@@ -39,7 +40,7 @@ export default class FormDemo extends Component{
         }
         return (
             <div className="form-demo">
-                <Tile className="form-demo-tile demo-tile">
+                <Tile className="form-demo-tile demo-tile demo-tile-lg">
                     <div className="form-demo-row">
                         <h3>表单示例</h3>
                         {/* <FormItem> */}
@@ -77,6 +78,21 @@ export default class FormDemo extends Component{
                             <Label>保密等级：</Label>
                             <Rate className="form-demo" value={this.state.rateValue} onChange={this.handleChange} count={5}/>
                             <span>{this.state.rateValue}</span>
+                            <br/>
+                            <Label>学历：</Label>
+                            <Select className="form-demo" defaultValue="">
+                                <Option value="">请选择</Option>
+                                <Option value="nothing">无</Option>
+                                <Option value="middle">初中</Option>
+                                <Option value="senior">高中</Option>
+                                <Option value="college1">专科</Option>
+                                <Option value="college2">本科</Option>
+                                <Option value="graduate">研究生及以上</Option>
+                                <Option value="other">其它</Option>
+                            </Select>
+                            <br/>
+                            <Label className="floatLeft">出生日期：</Label>
+                            <DatePicker className="form-demo" placeholder={'请选择出生日期'} />
                         {/* </FormItem> */}
                         {/* <Form submitCallBack={this.checkForm}>
                             <FormItem labelName="姓名"  isRequire={true} errorMessage="姓名格式错误" method="blur"  >

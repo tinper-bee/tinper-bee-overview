@@ -24,6 +24,7 @@ export default class CalendarDemo extends Component {
         return (
             <div className="calendar-demo">
                 <Tile className="calendar-demo-tile demo-tile">
+                    <h3>卡片日历</h3>
                     <Calendar
                         style={{ margin: 10 }}
                         fullscreen={false}
@@ -31,6 +32,7 @@ export default class CalendarDemo extends Component {
                         />
                 </Tile>
                 <Tile className="calendar-demo-tile demo-tile">
+                    <h3>选择日历</h3>
                     <Calendar
                         style={{ margin: 10 }}
                         fullscreen

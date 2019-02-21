@@ -48,7 +48,7 @@ export default class TransferDemo extends Component {
         let state = this.state;
         return (
             <div className="transfer-demo">
-                <Tile className="transfer-demo-tile demo-tile">
+                <Tile className="transfer-demo-tile demo-tile demo-tile-lg">
                     <h3>穿梭框</h3>
                     <div className="transfer-demo-row">
                         <Transfer

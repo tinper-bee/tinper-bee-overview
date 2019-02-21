@@ -22,7 +22,7 @@ export default class PanelDemo extends Component {
     render () {
         return (
             <div className="panel-demo">
-                <Tile className="panel-demo-tile demo-tile">
+                <Tile className="panel-demo-tile demo-tile demo-tile-lg">
                     <h3>展示板</h3>
                     <div className="panel-demo-row">
                         <Panel header="Panel header" footer='Panel footer'>

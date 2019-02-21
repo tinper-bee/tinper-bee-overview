@@ -49,7 +49,7 @@ export default class UploadDemo extends Component {
     render() {
         return (
             <div className="upload-demo">
-                <Tile className="upload-demo-tile demo-tile">
+                <Tile className="upload-demo-tile demo-tile demo-tile-lg">
                     <h3>上传</h3>
                     <div className="upload-demo-row">
                         <Upload {...props}>
@@ -58,13 +58,13 @@ export default class UploadDemo extends Component {
                             </Button>
                         </Upload>
                     </div>
-                    <div className="upload-demo-row">
+                    <div className="upload-demo-row" style={{ marginTop: 16, height: 170 }}>
                         <Dragger {...demo6props}>
                             <p className="u-upload-drag-icon">
                                 <Icon type="inbox" className="uf-upload" />
                             </p>
                             <p className="u-upload-text">Click or drag file to this area to upload</p>
-                            <p className="u-upload-hint">Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files</p>
+                            {/* <p className="u-upload-hint">Support for a single or bulk upload. Strictly prohibit from uploading company data or other band files</p> */}
                         </Dragger>
                     </div>
                 </Tile>

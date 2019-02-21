@@ -25,7 +25,8 @@ export default class TreeDemo extends Component {
     }
     render() {
         return (
-            <Tile className="tree-demo-tile demo-tile">
+            <Tile className="tree-demo-tile demo-tile demo-tile-lg">
+                <h3>树形控件</h3>
                 <Tree className="myCls" showLine checkable
                       defaultExpandedKeys={this.state.defaultExpandedKeys}
                       defaultSelectedKeys={this.state.defaultSelectedKeys}

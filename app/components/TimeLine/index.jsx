@@ -6,7 +6,7 @@ export default class TimelineDemo extends Component {
     render () {
         return (
             <div className="timeline-demo">
-                <Tile className="timeline-demo-tile demo-tile">
+                <Tile className="timeline-demo-tile demo-tile demo-tile-lg">
                     <h3>时间轴</h3>
                     <div className="timeline-demo-row">
                         <Timeline>

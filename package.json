@@ -42,11 +42,11 @@
   "homepage": "https://github.com/uba-templates/bee-boilerplate-light#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "bee-checkbox": "^1.0.6",
     "bee-locale": "0.0.3",
     "bee-menus": "^1.0.4",
     "bee-overlay": "^1.0.0",
     "bee-popover": "^1.0.1",
+    "bee-select": "^1.1.8",
     "better-npm-run": "0.0.8",
     "console-polyfill": "^0.3.0",
     "es5-shim": "^4.5.9",
