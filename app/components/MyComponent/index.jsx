@@ -33,7 +33,7 @@ import {
 } from 'tinper-bee';
 
 import './index.css';
-
+console.log(" ------SelectSelect--------- ",Select);
 const Option = Select.Option;
 const OptGroup = Select.OptGroup;
 

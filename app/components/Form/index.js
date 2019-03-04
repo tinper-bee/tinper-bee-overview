@@ -1,12 +1,11 @@
-import {  Form, Tile, FormControl, Radio, Label, Checkbox, Rate, Switch } from 'tinper-bee';
+import {  Form, Tile, FormControl, Radio, Label, Checkbox, Rate, Switch ,Select} from 'tinper-bee';
 import DatePicker from 'tinper-bee/lib/Datepicker';
-import Select from 'bee-select';
+// import Select from 'bee-select';
 import React, {Component} from 'react';
 import './index.less';
 
 const FormItem = Form.FormItem;
 const Option = Select.Option;
-
 
 export default class FormDemo extends Component{
     state={

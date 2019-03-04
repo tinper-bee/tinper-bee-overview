@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Con, Row, Col, BackTop } from 'tinper-bee';
+import { Con, Row, Col, BackTop,Modal} from 'tinper-bee';
 //import 'tinper-bee/assets/tinper-bee.css';
-import Modal from 'bee-modal';
 
 console.log(Con);
 import {
