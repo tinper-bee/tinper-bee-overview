@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Tile, Autocomplete, Icon} from 'tinper-bee';
+import {Tile, AutoComplete, Icon} from 'tinper-bee';
 
 
 import './index.less';
@@ -30,7 +30,7 @@ export default class AutocompleteDemo extends Component {
                 <Tile className="autocomplete-demo-tile demo-tile">
                     <h3>自动补全</h3>
                     <div className="autocomplete-demo-row">
-                        <Autocomplete
+                        <AutoComplete
                             value={value}
                             disabled={disabled}
                             options={options}
