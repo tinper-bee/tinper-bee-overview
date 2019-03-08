@@ -46,3 +46,4 @@ export CarouselDemo from './Carousel';
 // export SelectDemo from './Select/index.js';
 export RadioDemo from './Radio';
 export SwitchDemo from './Switch';
+export InputGroupDemo from './InputGroup';

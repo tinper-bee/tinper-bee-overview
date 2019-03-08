@@ -47,7 +47,8 @@ import {
     CarouselDemo,
     // SelectDemo,
     RadioDemo,
-    SwitchDemo
+    SwitchDemo,
+    InputGroupDemo
 } from '../../components';
 
 import './index.less';
@@ -83,7 +84,6 @@ class App extends Component {
                 <BadgeDemo /> */}
                 {/* <RateDemo /> */}
                 <BreadCrumbDemo />
-                {/* <PaginationDemo /> */}
                 <TooltipDemo />
                 <PopoverDemo />
                 <StepDemo />
@@ -92,10 +92,12 @@ class App extends Component {
                 <CascaderDemo />
                 <AutocompleteDemo />
                 <TimeDemo />
+                <InputNumberDemo />
+                <InputGroupDemo />
+                <PaginationDemo />
                 <ProgressBarDemo />
                 {/* <IconDemo /> */}
                 {/* <BackTopDemo /> */}
-                {/* <InputNumberDemo /> */}
                 {/* <ClipboardDemo /> */}
                 {/* <AlertDemo /> */}
                 <TimelineDemo />

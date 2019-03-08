@@ -4,6 +4,7 @@ import DatePicker from 'tinper-bee/lib/Datepicker';
 import React, {Component} from 'react';
 import './index.less';
 
+console.log(" ---- ",Select);
 const FormItem = Form.FormItem;
 const Option = Select.Option;
 
@@ -92,6 +93,9 @@ export default class FormDemo extends Component{
                             <br/>
                             <Label className="floatLeft">出生日期：</Label>
                             <DatePicker className="form-demo" placeholder={'请选择出生日期'} />
+                            <br/>
+                            <Label>备注：</Label>
+                            <FormControl style={{width:200 + 'px'}}/>
                         {/* </FormItem> */}
                         {/* <Form submitCallBack={this.checkForm}>
                             <FormItem labelName="姓名"  isRequire={true} errorMessage="姓名格式错误" method="blur"  >

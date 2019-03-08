@@ -7,7 +7,8 @@ export default class PaginationDemo extends React.Component {
         super(props);
         this.state = {
             activePage1:1,
-            activePage2:1
+            activePage2:1,
+            activePage3:1
         }
     }
     handleSelect1(eventKey) {
@@ -18,6 +19,11 @@ export default class PaginationDemo extends React.Component {
     handleSelect2(eventKey) {
         this.setState({
             activePage2: eventKey
+        });
+    }
+    handleSelect3(eventKey) {
+        this.setState({
+            activePage3: eventKey
         });
     }
     render() {
@@ -44,6 +50,21 @@ export default class PaginationDemo extends React.Component {
                              activePage={this.state.activePage2}
                              onSelect={this.handleSelect2.bind(this)}
                          />
+                    </div>
+                    <div className="pagination-demo-row">
+                        <Pagination
+                            first
+                            last
+                            prev
+                            next
+                            maxButtons={5}
+                            boundaryLinks
+                            items={1}
+                            activePage={this.state.activePage3}
+                            onSelect={this.handleSelect3.bind(this)}
+                            showJump={true}
+                            noBorder={false}
+                        />
                     </div>
                 </Tile>
             </div>
