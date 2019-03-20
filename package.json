@@ -42,8 +42,6 @@
   "homepage": "https://github.com/uba-templates/bee-boilerplate-light#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "bee-locale": "0.0.3",
-    "bee-overlay": "latest",
     "better-npm-run": "0.0.8",
     "console-polyfill": "^0.3.0",
     "es5-shim": "^4.5.9",
@@ -54,8 +52,7 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^3.0.0",
-    "tinper-bee": "^2.0.2",
-    "tinper-bee-core": "^2.0.18"
+    "tinper-bee": "^2.0.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.3",
