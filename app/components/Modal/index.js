@@ -16,6 +16,18 @@ const targetKeys = mockData
     .filter(item => +item.key % 3 > 1)
     .map(item => item.key);
 
+const info = function () {
+    Modal.info({
+        title: '提示',
+        okText: '知道了',
+        content: (
+            <div>
+            <p>单据状态已更新，请在审批中心内查看。</p>
+            </div>
+        ),
+        onOk() {},
+    });
+};
 export default class ModalDemo extends Component {
     constructor(props) {
         super(props);
@@ -106,6 +118,7 @@ export default class ModalDemo extends Component {
                                     <Button onClick={ this.close1 } colors="primary">确认</Button>
                                 </Modal.Footer>
                         </Modal>
+                        <Button colors="info" onClick={info}>Info</Button>
                     </div>
 
                     {/* <div className="notification-demo-row">

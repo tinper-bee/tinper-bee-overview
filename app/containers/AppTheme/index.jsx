@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Con, Row, Col, BackTop,Modal } from 'tinper-bee';
-//import 'tinper-bee/assets/tinper-bee.css';
+// import 'tinper-bee/assets/theme/tinper-bee.css';
 
 console.log(Con);
 import {
@@ -48,7 +48,12 @@ import {
     // SelectDemo,
     RadioDemo,
     SwitchDemo,
-    InputGroupDemo
+    InputGroupDemo,
+    TagDemo,
+    ColorPickerDemo,
+    SearchPanelDemo,
+    AnchorDemo,
+    TreeSelectDemo
 } from '../../components';
 
 import './index.less';
@@ -73,10 +78,11 @@ class App extends Component {
         <Row>
             <Col sm={12}>
                 <ButtonDemo />
+                <TagDemo/>
                 <LoadingStateDemo />
                 <ModalDemo />
                 <PopconfirmDemo />
-                {/* <MessageDemo /> */}
+                <MessageDemo />
                 <DropdownDemo />
                 {/* <RadioDemo />
                 <CheckboxDemo />
@@ -93,6 +99,7 @@ class App extends Component {
                 <AutocompleteDemo />
                 <TimeDemo />
                 <InputNumberDemo />
+                <ColorPickerDemo/>
                 <InputGroupDemo />
                 <PaginationDemo />
                 <ProgressBarDemo />
@@ -102,7 +109,8 @@ class App extends Component {
                 {/* <AlertDemo /> */}
                 <TimelineDemo />
                 <TreeDemo />
-                <FormDemo />
+                <TreeSelectDemo/>
+                {/* <FormDemo /> */}
                 {/* <LayoutDemo /> */}
                 <TransferDemo />
                 <TableDemo />
@@ -114,6 +122,8 @@ class App extends Component {
                 {/*<LocaleDemo />*/}
                 <Menus /> 
                 <CalendarDemo />
+                <SearchPanelDemo/>
+                <AnchorDemo/>
                 <LoadingDemo />
                 {/* <CarouselDemo /> */}
                 {/* <SelectDemo /> */}

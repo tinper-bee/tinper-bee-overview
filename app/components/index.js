@@ -47,3 +47,8 @@ export CarouselDemo from './Carousel';
 export RadioDemo from './Radio';
 export SwitchDemo from './Switch';
 export InputGroupDemo from './InputGroup';
+export ColorPickerDemo from './ColorPicker';
+export TagDemo from './Tag';
+export SearchPanelDemo from './SearchPanel';
+export AnchorDemo from './Anchor';
+export TreeSelectDemo from './TreeSelect';

@@ -28,10 +28,10 @@ export default class TableDemo extends Component {
                 <Tile className="table-demo-tile demo-tile demo-tile-lg">
                     <Table
                         columns={columns}
-                        data={data1}
+                        data={[]}
                         title={currentData => <div>title: this is a title</div>}
                         footer={currentData => <div>footer: this is a footer</div>}
-                        emptyText={emptyFunc}
+                        // emptyText={emptyFunc}
                         />
                 </Tile>
                 {/* <Tile className="table-demo-tile demo-tile">
