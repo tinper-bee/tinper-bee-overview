@@ -14,8 +14,13 @@ export default class ButtonDemo extends Component{
                     <h3>基本按钮</h3>
                     <div className="button-demo-row">
                         <Button colors="primary">primary</Button>
+                        <Button colors="secondary">secondary</Button>
                         <Button colors="default">default</Button>
                         <Button shape="border">border</Button>
+                    </div>
+                    <div className="button-demo-row">
+                        <Button colors="info" shape="icon"><Icon type='uf-cloud-up' /></Button>
+                        <Button colors="info"><Icon type='uf-cloud-up' />Upload</Button>
                     </div>
                     {/* <div className="button-demo-row">
                         <Button colors="success">success</Button>

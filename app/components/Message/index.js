@@ -9,7 +9,12 @@ const danger = function () {
     Message.create({content: 'This is a danger message', color: 'danger'});
 };
 const success = function () {
-    Message.create({content: 'This is a success message', color: 'success'});
+    Message.destroy();
+    Message.create({
+        content: 'This is a success message', 
+        color: 'success',
+        style: {width:'100%', top:0, left:0, transform:'none'}
+    });
 };
 const warning = function () {
     Message.create({content: 'This is a warning message', color: 'warning'});
@@ -34,7 +39,7 @@ export default class MessageDemo extends Component {
                     <h3>消息</h3>
                     <div className="message-demo-row">
                         <Button
-                            colors="primary"
+                            colors="dark"
                             onClick={loading}>
                             dark
                         </Button>

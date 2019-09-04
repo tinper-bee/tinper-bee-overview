@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Con, Row, Col, BackTop,Modal } from 'tinper-bee';
-// import 'tinper-bee/assets/theme/tinper-bee.css';
 
 console.log(Con);
 import {
@@ -53,7 +52,8 @@ import {
     ColorPickerDemo,
     SearchPanelDemo,
     AnchorDemo,
-    TreeSelectDemo
+    TreeSelectDemo,
+    PageLayoutDemo
 } from '../../components';
 
 import './index.less';
@@ -110,7 +110,7 @@ class App extends Component {
                 <TimelineDemo />
                 <TreeDemo />
                 <TreeSelectDemo/>
-                {/* <FormDemo /> */}
+                <FormDemo />
                 {/* <LayoutDemo /> */}
                 <TransferDemo />
                 <TableDemo />
@@ -123,6 +123,7 @@ class App extends Component {
                 <Menus /> 
                 <CalendarDemo />
                 <SearchPanelDemo/>
+                <PageLayoutDemo/>
                 <AnchorDemo/>
                 <LoadingDemo />
                 {/* <CarouselDemo /> */}

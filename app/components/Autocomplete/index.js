@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Tile, AutoComplete, Icon} from 'tinper-bee';
+import {Tile, AutoComplete, Button, Icon,Row,Col} from 'tinper-bee';
 
 
 import './index.less';
@@ -9,35 +9,55 @@ export default class AutocompleteDemo extends Component {
         super(props);
         this.state = {
             value: "",
-            options: ['10000(博宇)', '10001(波波)', '10002(李刚)'],
+            options: ["10000", "10001", "10002", "11000", "12010"],
             placeholder: "查找关键字,请输入1",
+            open: false,
             disabled: false
         }
-        this.onFormChange = this.onFormChange.bind(this);
     }
-    onFormChange(value) {
-        console.log(value);
+    handleChange = value => {
         this.setState({
-            value: value
-        })
+            value: value,
+        });
+    };
 
+    changeOpen = () => {
+        this.setState({
+            open: !this.state.open,
+        });
+    }
+
+    changeDisabled = () => {
+        this.setState({
+            disabled: !this.state.disabled,
+        });
     }
 
     render() {
-        let { value, options, placeholder,disabled} = this.state;
+        let { value, options, placeholder, open, disabled } = this.state;
         return (
             <div className="autocomplete-demo">
                 <Tile className="autocomplete-demo-tile demo-tile">
                     <h3>自动补全</h3>
                     <div className="autocomplete-demo-row">
-                        <AutoComplete
-                            value={value}
-                            disabled={disabled}
-                            options={options}
-                            placeholder={placeholder}
-                            onValueChange={value => this.onFormChange(value)}
-                        />
-
+                        <Row>
+                            <Col lg={6} md={6} sm={6} xs={6}>
+                                <AutoComplete
+                                show={open}
+                                disabled={disabled}
+                                value={value}
+                                options={options}
+                                placeholder={placeholder}
+                                onChange={value => this.handleChange(value)}
+                                />
+                            </Col>
+                            <Col lg={6} md={6} sm={6} xs={6}>
+                                <div style={{marginBottom:16 + 'px'}}>
+                                    <Button onClick={this.changeOpen} style={{marginRight:16 + 'px'}}>{open ? '隐藏面板' : '显示面板'}</Button>
+                                    <Button onClick={this.changeDisabled}>{disabled ? '启用' : '禁用'}</Button>
+                                </div>
+                            </Col>
+                        </Row>
                     </div>
                 </Tile>
             </div>

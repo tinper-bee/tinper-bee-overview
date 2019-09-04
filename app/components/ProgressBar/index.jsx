@@ -10,7 +10,7 @@ export default class ProgressBarDemo extends Component{
                 <Tile className="progress-bar-demo-tile demo-tile demo-tile-lg">
                     <h3>进度条</h3>
                     <div className="progress-bar-demo-row">
-                        <ProgressBar now = {40} />
+                        <ProgressBar now = {40} colors="info"/>
                         <ProgressBar active now = {60} />
                         <ProgressBar striped now = {80} />
                         {/* <ProgressBar size="sm">

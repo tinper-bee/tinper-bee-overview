@@ -31,7 +31,7 @@ export default class PopoverDemo extends Component {
                             trigger="hover"
                             content={content}
                             id="popover"
-                            placement="top">
+                            placement="topLeft">
                             <Button colors="primary">
                                 悬停显示
                             </Button>

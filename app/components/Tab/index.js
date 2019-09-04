@@ -19,12 +19,12 @@ export default class TabDemo extends Component {
                         <Tabs
                             defaultActiveKey="2"
                             onChange={() => {}}
-                            tabBarStyle="downborder"
+                            tabBarStyle="upborder"
                         >
-                            <TabPane tab='tab 1' key="1">1</TabPane>
-                            <TabPane tab='tab 2' key="2">2</TabPane>
-                            <TabPane tab='tab 3' key="3">3</TabPane>
-                            <TabPane tab='tab 4' key="4">4</TabPane>
+                            <TabPane tab='tab 1' key="1">Content of Tab Pane 1</TabPane>
+                            <TabPane tab='tab 2' key="2">Content of Tab Pane 2</TabPane>
+                            <TabPane tab='tab 3' key="3">Content of Tab Pane 3</TabPane>
+                            <TabPane tab='tab 4' key="4">Content of Tab Pane 4</TabPane>
                         </Tabs>
                     </div>
                     <div className="tab-demo-row">

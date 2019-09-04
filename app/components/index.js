@@ -52,3 +52,4 @@ export TagDemo from './Tag';
 export SearchPanelDemo from './SearchPanel';
 export AnchorDemo from './Anchor';
 export TreeSelectDemo from './TreeSelect';
+export PageLayoutDemo from './PageLayout';
