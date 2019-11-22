@@ -5,21 +5,35 @@ import './index.less';
 
 export default class PopoverDemo extends Component {
     state = {
-        open: true
+        show: false
+    }
+    handleClose = () => {
+        this.setState({
+            show: false
+        })
     }
 
-    render() {
+    show = () => {
+        this.setState({
+            show: true
+        })
+    }
 
+    onVisibleChange = (visible) => {
+        console.log('显示状态改变时触发的回调: ',visible);
+        this.setState({
+            show: visible
+        })
+    }
+    render() {
         let content = (
             <div>
-                <h3>
-                    消息
-                </h3>
-                <ul>
-                    <li>双11大促，快来抢购啊</li>
-                    <li>1元抢iphone，来晚就没了</li>
-                    <li>大吉大利，今晚吃鸡</li>
-                </ul>
+                <Button
+                    colors="primary"
+                    onClick={ this.handleClose }
+                    size="sm">
+                    关闭
+                </Button>
             </div>
         )
         return (
@@ -29,6 +43,7 @@ export default class PopoverDemo extends Component {
                     <div className="popover-demo-row">
                         <Popover
                             trigger="hover"
+                            title={<h3>请确认您的包裹已签收！</h3>}
                             content={content}
                             id="popover"
                             placement="topLeft">
@@ -37,13 +52,16 @@ export default class PopoverDemo extends Component {
                             </Button>
                         </Popover>
                         <Popover
-                            trigger="click"
+                            placement="right"
+                            title={<h3>请确认您的包裹已签收！</h3>}
                             content={content}
-                            id="popover"
-                            placement="right">
-                            <Button colors="primary">
-                                点击显示
-                            </Button>
+                            show={this.state.show}
+                            onVisibleChange={this.onVisibleChange}
+                        >
+                            <Button
+                                colors="primary"
+                                onClick={ this.show }
+                                >确认按钮</Button>
                         </Popover>
                     </div>
                 </Tile>

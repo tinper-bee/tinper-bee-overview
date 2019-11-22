@@ -26,6 +26,9 @@ export default class InputNumberDemo extends Component {
                     <div className="inputnumber-demo-row">
                         <InputNumber iconStyle="one" max={12} min={5} step={2}/>
                     </div>
+                    <div className="inputnumber-demo-row">
+                    <InputNumber toThousands={true} precision={2} />
+                    </div>
                 </Tile>
             </div>
         )

@@ -15,7 +15,7 @@ export default class LoadingDemo extends Component {
                         如果非要在这份爱上加上一个期限，我希望是……
                         一万年
                     </p>
-                    <Loading container={this} show={true} />
+                    <Loading container={this} show={true} tip="加载中..."/>
                 </div>
             </Tile>
         </div>
