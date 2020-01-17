@@ -17,17 +17,17 @@ export default class InputNumberDemo extends Component {
 
     render() {
         return (
-            <div className="inputnumber-demo">
+            <div className="inputnumber-demo" style={{width:500}}>
                 <Tile className="inputnumber-demo-tile demo-tile">
                     <h3>数字输入框</h3>
                     <div className="inputnumber-demo-row">
                         <InputNumber  precision={2} min={0} value={this.state.value} onChange={ this.handleChange }/>
                     </div>
                     <div className="inputnumber-demo-row">
-                        <InputNumber iconStyle="one" max={12} min={5} step={2}/>
+                        <InputNumber iconStyle="one" max={12} min={5} step={2} displayCheckPrompt={true}/>
                     </div>
                     <div className="inputnumber-demo-row">
-                    <InputNumber toThousands={true} precision={2} />
+                        <InputNumber toThousands={true} precision={2}/>
                     </div>
                 </Tile>
             </div>

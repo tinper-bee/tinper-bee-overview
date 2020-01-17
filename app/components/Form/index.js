@@ -92,7 +92,7 @@ export default class FormDemo extends Component{
                             </Select>
                             <br/>
                             <Label className="floatLeft">出生日期：</Label>
-                            <DatePicker className="form-demo" placeholder={'请选择出生日期'} />
+                            <DatePicker value="2019/10/30" className="form-demo" placeholder={'请选择出生日期'} showTime={true} />
                             <br/>
                             <Label>备注：</Label>
                             <FormControl style={{width:200 + 'px'}}/>

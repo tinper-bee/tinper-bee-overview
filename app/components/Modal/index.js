@@ -107,7 +107,7 @@ export default class ModalDemo extends Component {
                             className="demo10-modal"
                             backdrop={false}
                             draggable={true}
-                            // bounds={'body'}//可拖拽范围为当前可见区域
+                            bounds={{top:0}}//可拖拽范围为当前可见区域
                         >
                             <Modal.Header closeButton>
                                 <Modal.Title>

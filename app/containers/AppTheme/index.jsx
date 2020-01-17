@@ -53,7 +53,8 @@ import {
     SearchPanelDemo,
     AnchorDemo,
     TreeSelectDemo,
-    PageLayoutDemo
+    PageLayoutDemo,
+    SvgIconDemo
 } from '../../components';
 
 import './index.less';
@@ -79,6 +80,7 @@ class App extends Component {
             <Col sm={12}>
                 <ButtonDemo />
                 <TagDemo/>
+                <SvgIconDemo />
                 <LoadingStateDemo />
                 <ModalDemo />
                 <PopconfirmDemo />

@@ -29,6 +29,15 @@ const demo6props = {
     multiple: true,
     showUploadList: false,
     action: '/upload.do',
+    enterDragger(){
+        console.log('enterDragger')
+    },
+    leaveDragger(){
+        console.log('leaveDragger')
+    },
+    beforeUpload(file,fileList){
+        console.log('file: ',file, 'fileList: ',fileList)
+    },
     onChange(info) {
         const status = info.file.status;
         if (status !== 'uploading') {

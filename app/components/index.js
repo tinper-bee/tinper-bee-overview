@@ -53,3 +53,4 @@ export SearchPanelDemo from './SearchPanel';
 export AnchorDemo from './Anchor';
 export TreeSelectDemo from './TreeSelect';
 export PageLayoutDemo from './PageLayout';
+export SvgIconDemo from './SvgIcon';

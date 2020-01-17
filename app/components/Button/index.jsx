@@ -19,7 +19,7 @@ export default class ButtonDemo extends Component{
                         <Button shape="border">border</Button>
                     </div>
                     <div className="button-demo-row">
-                        <Button colors="info" shape="icon"><Icon type='uf-cloud-up' /></Button>
+                        <Button colors="info" shape="icon"><Icon type='uf-qingkong' /></Button>
                         <Button colors="info"><Icon type='uf-cloud-up' />Upload</Button>
                     </div>
                     {/* <div className="button-demo-row">

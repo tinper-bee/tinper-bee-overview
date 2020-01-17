@@ -25,6 +25,11 @@ export default class TooltipDemo extends Component {
                         <Tooltip overlay = {tooltip1()}  placement="right">
                             <Button colors="primary">tooltip</Button>
                         </Tooltip>
+                        <Tooltip inverse overlay={tooltip1()} placement="left">
+                            <Button colors="primary">
+                                鼠标滑过显示
+                            </Button>
+                        </Tooltip>
                     </div>
                 </Tile>
 
